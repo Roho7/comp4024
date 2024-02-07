@@ -12,9 +12,15 @@ means you do a total of 50 hours work each over the period which should
 leave you with a simple playable game at a minimum. 
 
 
-# Git Commit Message Convention
+# Git Usage
 
 Making a standardised git commits throughout the whole project.
+
+## Pushing Commits
+Before commits are pushed to main from local, remember to do this checklist:
+1. Always take the **latest pull** from Main 
+2. Describe the **fixes** or **features** added
+3. **Code must be compiled on local, do not push buggy code!**
 
 
 ## Commit Message Format
@@ -23,7 +29,7 @@ All Commit Messages **MUST** meet this Format:
 ```
 [<Type>: <Subject>]
 <<<<BLANK LINE>>>>
-[Author: <Firstname>]
+[Author: <Firstname> <<University Email>>]
 [Date: <Date> @ <Time>]
 <<<<BLANK LINE>>>>
 [<Message Body>]
@@ -44,7 +50,7 @@ All Commit Messages **MUST** meet this Format:
 
 
 ## Author and Date
-The author should be first name with first letter **capitalised**, the date should be the date should be in **DD/MM/YY** format and time be in 24 hour **HH:MM** format.
+The author should be first name with first letter **capitalised** and **university email** next to the name. The date should be the date should be in **DD/MM/YY** format and time be in 24 hour **HH:MM** format.
 
 ## Subject
 The subject contains a brief description of the change:
@@ -55,7 +61,7 @@ The subject contains a brief description of the change:
 
 
 ## Message Body
-Just as in the **Subject**, use the past tense: "changed" not "change" nor "changes". The body should include the motivation for the change. 
+Just as in the **Subject**, use the past tense: "changed" not "change" nor "changes". The body should include the motivation for the change. This is **optional**, for when more information is needed to explain commit.
 
 
 ## Examples
@@ -64,17 +70,15 @@ new feature:
 ```
 feat: added 'changeWidth' option
 
-Author: John
+Author: John <psyjd1@nottingham.ac.uk>
 Date: 01/01/24 @ 23:45
-
-Added a new feature where the sprite width can be changed in game.
 ```
 
 bug fix:
 ```
 fix: stoped code breaking when width < 0.1
 
-Author: John
+Author: John <psyjd1@nottingham.ac.uk>
 Date: 02/01/24 @ 12:34
 
 The default graphite width of 10mm has been made the minimum width.
