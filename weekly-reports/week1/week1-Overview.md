@@ -1,4 +1,4 @@
-# Software Used:
+# Week 1 Overview
 ### GitHub:
 Some members already have experience in this, It also has a useful desktop app that will support beginners. Some members do not have access to the university of Nottingham GitLab server.
 
@@ -6,7 +6,7 @@ Some members already have experience in this, It also has a useful desktop app t
 Originally we were using Jira to manage our project, but found it overly confusing. We have since moved to Trello and will use markdown files in GitHub for documentation.
 
 
-# Game Idea:
+## Game Idea:
 
 Our main game will be a combination of Idea 1 and Idea 6. We can combine these two platformer games, taking the best elements of both. We will be extending the project by allowing questions form any topic to be in the levels. We will also try to use the suggestions from Idea 2 and Idea 4 as minigames or topics in the platformer.
 
