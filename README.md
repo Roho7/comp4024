@@ -15,27 +15,49 @@ Leo Meyler: psylm10@nottingham.ac.uk
 
 Ringo Lin: alywl40@nottingham.ac.uk
 
+Patwitra Kultanarueangnon: alypk2@nottingham.ac.uk
+
 Charlie：alyjx30@nottingham.ac.uk
                                 
 
 ## Documentation
 ### Week 1: [Documentation](./weekly-reports/week1/week1-Ideas.md)
 
-What will we be looking for in the lab:
-- Have you all got access to Unity?
-- Have you set up Git (or equivalent)?
-- Have you decided on an idea for a game? Is it appropriate?
-- Have you got sketches for a game?
-- Have you thought about the user?
-- Have you thought about the learning outcome(s)?
-- Have you thought about the game mechanic?
-- Do you have a plan for what you are going to do by next week?
+Plan:
+- Everyone has access to Unity?
+- Set up a Git repo (GitHub)?
+- Decided on an idea for the game? 
+- Make sketches for the game?
+- Thought about user requirements?
+- Thought about the game mechanics?
 
 ---
 ### Week 2: 
+
+Plan:
+- Lore ipsem 
+
 ---
-### Week 3:
+### Week 3: 
+
+Plan:
+- Lore ipsem 
+
 ---
+### Week 4: 
+
+Plan:
+- Lore ipsem 
+
+---
+### Week 5: 
+
+Plan:
+- Lore ipsem 
+
+---
+
+
 
 ## Assignment
 You have formed groups of roughly 6 people each. You need to create an
@@ -66,11 +88,6 @@ All Commit Messages **MUST** meet this Format:
 
 ```
 [<Type>: <Subject>]
-<<<<BLANK LINE>>>>
-[Author: <Firstname> <<University Email>>]
-[Date: <Date> @ <Time>]
-<<<<BLANK LINE>>>>
-[<Message Body>]
 ```
 
 
@@ -87,9 +104,6 @@ All Commit Messages **MUST** meet this Format:
 | `wip`         | for work in progress commit |
 
 
-## Author and Date
-The author should be first name with first letter **capitalised** and **university email** next to the name. The date should be the date should be in **DD/MM/YY** format and time be in 24 hour **HH:MM** format.
-
 ## Subject
 The subject contains a brief description of the change:
 
@@ -98,28 +112,16 @@ The subject contains a brief description of the change:
 * no dot (.) at the end
 
 
-## Message Body
-Just as in the **Subject**, use the past tense: "changed" not "change" nor "changes". The body should include the motivation for the change. This is **optional**, for when more information is needed to explain commit.
-
-
 ## Examples
 
 new feature:
 ```
 feat: added 'changeWidth' option
-
-Author: John <psyjd1@nottingham.ac.uk>
-Date: 01/01/24 @ 23:45
 ```
 
 bug fix:
 ```
 fix: stoped code breaking when width < 0.1
-
-Author: John <psyjd1@nottingham.ac.uk>
-Date: 02/01/24 @ 12:34
-
-The default graphite width of 10mm has been made the minimum width.
 ```
 
 
