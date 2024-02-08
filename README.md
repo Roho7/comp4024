@@ -9,54 +9,6 @@
  \_____/      |_|\_____/ \______|_|          |_|
 ```
 
-[Trello Board](https://trello.com/w/userworkspace72299105)
-
-Leo Meyler: psylm10@nottingham.ac.uk
-
-Ringo Lin: alywl40@nottingham.ac.uk
-
-Patwitra Kultanarueangnon: alypk2@nottingham.ac.uk
-
-Charlie：alyjx30@nottingham.ac.uk
-                                
-
-## Documentation
-### Week 1: [Documentation](./weekly-reports/week1/week1-Ideas.md)
-
-Plan:
-- Everyone has access to Unity?
-- Set up a Git repo (GitHub)?
-- Decided on an idea for the game? 
-- Make sketches for the game?
-- Thought about user requirements?
-- Thought about the game mechanics?
-
----
-### Week 2: 
-
-Plan:
-- Lore ipsem 
-
----
-### Week 3: 
-
-Plan:
-- Lore ipsem 
-
----
-### Week 4: 
-
-Plan:
-- Lore ipsem 
-
----
-### Week 5: 
-
-Plan:
-- Lore ipsem 
-
----
-
 
 
 ## Assignment
@@ -70,6 +22,112 @@ Git, plan your project, and develop it based on use cases and tests. Make
 sure not to spend more time on this project than it deserves for marks. That
 means you do a total of 50 hours work each over the period which should
 leave you with a simple playable game at a minimum. 
+
+## The Team
+
+| Name     | Email                    | Role |
+|----------|--------------------------|------|
+|Leo       | psylm10@nottingham.ac.uk |      |
+|Ringo     | alywl40@nottingham.ac.uk |      |
+|Patwitra  | alypk2@nottingham.ac.uk  |      |
+|Charlie   | alyjx30@nottingham.ac.uk |      |
+|Hemal     | psyhp2@nottingham.ac.uk  |      |
+|Rohosen   | psxrb10@nottingham.ac.uk |      |
+                                
+
+## Weekly Sprints
+
+### Week 1 Sprint
+**Overview of Weekly Plan:**
+- Everyone has access to Unity?
+- Set up a Git repo (GitHub)?
+- Decided on an idea for the game? 
+- Make sketches for the game?
+- Thought about user requirements?
+- Thought about the game mechanics?
+
+**Detailed Plan:**
+- On the [Trello Board: Week 1 Sprint](https://trello.com/b/bZQf9yUQ/week-1-sprint)
+
+**Documentation:**
+- [Week Overview](weekly-reports\week1\week1-Overview.md)
+- [Meeting Minutes](weekly-reports\week1\week1-Meeting.md)
+- [Game Requirements](weekly-reports\week1\week1-Requirements.md)
+- [Learning Outcomes](weekly-reports\week1\week1-learningOutcomes.md)
+- [Chosen Game Idea](weekly-reports\week1\week1-FinalGameIdea.md)
+
+---
+
+### Week 2 Sprint
+**Overview of Weekly Plan:**
+- Everyone has access to Unity?
+- Set up a Git repo (GitHub)?
+- Decided on an idea for the game? 
+- Make sketches for the game?
+- Thought about user requirements?
+- Thought about the game mechanics?
+
+**Detailed Plan:**
+- On the [Trello Board: Week 2 Sprint](https://trello.com/b/bZQf9yUQ/week-2-sprint)
+
+**Documentation:**
+- [Week Overview](weekly-reports\week2\week2-Overview.md)
+- [Meeting Minutes](weekly-reports\week2\week2-Meeting.md)
+- [Personality Types](weekly-reports\week2\week2-Personality.md)
+
+---
+
+### Week 3 Sprint
+**Overview of Weekly Plan:**
+- Everyone has access to Unity?
+- Set up a Git repo (GitHub)?
+- Decided on an idea for the game? 
+- Make sketches for the game?
+- Thought about user requirements?
+- Thought about the game mechanics?
+
+**Detailed Plan:**
+- On the [Trello Board: Week 3 Sprint](https://trello.com/b/bZQf9yUQ/week-3-sprint)
+
+**Documentation:**
+- [Week Overview](weekly-reports\week3\week3-Overview.md)
+- [Meeting Minutes](weekly-reports\week3\week3-Meeting.md)
+
+---
+
+### Week 4 Sprint
+**Overview of Weekly Plan:**
+- Everyone has access to Unity?
+- Set up a Git repo (GitHub)?
+- Decided on an idea for the game? 
+- Make sketches for the game?
+- Thought about user requirements?
+- Thought about the game mechanics?
+
+**Detailed Plan:**
+- On the [Trello Board: Week 4 Sprint](https://trello.com/b/bZQf9yUQ/week-4-sprint)
+
+**Documentation:**
+- [Week Overview](weekly-reports\week4\week4-Overview.md)
+- [Meeting Minutes](weekly-reports\week4\week4-Meeting.md)
+
+---
+
+### Week 5 Sprint
+**Overview of Weekly Plan:**
+- Everyone has access to Unity?
+- Set up a Git repo (GitHub)?
+- Decided on an idea for the game? 
+- Make sketches for the game?
+- Thought about user requirements?
+- Thought about the game mechanics?
+
+**Detailed Plan:**
+- On the [Trello Board: Week 5 Sprint](https://trello.com/b/bZQf9yUQ/week-5-sprint)
+
+**Documentation:**
+- [Week Overview](weekly-reports\week5\week5-Overview.md)
+- [Meeting Minutes](weekly-reports\week5\week5-Meeting.md)
 
 
 # Git Usage
