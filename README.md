@@ -11,6 +11,9 @@
 
 [Trello Board](https://trello.com/w/userworkspace72299105)
 
+Leo Meyler: psylm10@nottingham.ac.uk
+Ringo Lin: alywl40@nottingham.ac.uk
+
 ## Documentation
 
 ### Week 1: [Documentation](./weekly-reports/week1/week1-Ideas.md)
