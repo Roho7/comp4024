@@ -12,7 +12,10 @@
 [Trello Board](https://trello.com/w/userworkspace72299105)
 
 Leo Meyler: psylm10@nottingham.ac.uk
+
 Ringo Lin: alywl40@nottingham.ac.uk
+
+Patwitra Kultanarueangnon: alypk2@nottingham.ac.uk
                                 
 
 ## Documentation
