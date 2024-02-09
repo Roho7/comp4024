@@ -39,12 +39,12 @@ leave you with a simple playable game at a minimum.
 
 ### Week 1 Sprint
 **Overview of Weekly Plan:**
-- Everyone has access to Unity?
-- Set up a Git repo (GitHub)?
-- Decided on an idea for the game? 
-- Make sketches for the game?
-- Thought about user requirements?
-- Thought about the game mechanics?
+- Everyone has access to Unity
+- Set up a Git repo (GitHub)
+- Decided on an idea for the game 
+- Make sketches for the game
+- Thought about user requirements
+- Thought about the game mechanics
 
 **Detailed Plan:**
 - On the [Trello Board: Week 1 Sprint](https://trello.com/b/bZQf9yUQ/week-1-sprint)
@@ -60,12 +60,12 @@ leave you with a simple playable game at a minimum.
 
 ### Week 2 Sprint
 **Overview of Weekly Plan:**
-- Everyone has access to Unity?
-- Set up a Git repo (GitHub)?
-- Decided on an idea for the game? 
-- Make sketches for the game?
-- Thought about user requirements?
-- Thought about the game mechanics?
+
+-   Know the team members better in terms of their skills, experience and personality types
+-   Set up a Kanban board with tasks
+-   Allocate team roles
+-   Decide on the Minimum Viable Product
+-   Write some simple tests and code?
 
 **Detailed Plan:**
 - On the [Trello Board: Week 2 Sprint](https://trello.com/b/bZQf9yUQ/week-2-sprint)
@@ -74,17 +74,16 @@ leave you with a simple playable game at a minimum.
 - [Week Overview](weekly-reports/week2/week2-Overview.md)
 - [Meeting Minutes](weekly-reports/week2/week2-Meeting.md)
 - [Personality Types](weekly-reports/week2/week2-Personality.md)
+- [Minimum Viable Product](weekly-reports/week2/week2-MVP.md)
 
 ---
 
 ### Week 3 Sprint
 **Overview of Weekly Plan:**
-- Everyone has access to Unity?
-- Set up a Git repo (GitHub)?
-- Decided on an idea for the game? 
-- Make sketches for the game?
-- Thought about user requirements?
-- Thought about the game mechanics?
+- Example 1
+- Example 2
+- Example 3 
+
 
 **Detailed Plan:**
 - On the [Trello Board: Week 3 Sprint](https://trello.com/b/bZQf9yUQ/week-3-sprint)
@@ -97,12 +96,9 @@ leave you with a simple playable game at a minimum.
 
 ### Week 4 Sprint
 **Overview of Weekly Plan:**
-- Everyone has access to Unity?
-- Set up a Git repo (GitHub)?
-- Decided on an idea for the game? 
-- Make sketches for the game?
-- Thought about user requirements?
-- Thought about the game mechanics?
+- Example 1
+- Example 2
+- Example 3 
 
 **Detailed Plan:**
 - On the [Trello Board: Week 4 Sprint](https://trello.com/b/bZQf9yUQ/week-4-sprint)
@@ -115,12 +111,9 @@ leave you with a simple playable game at a minimum.
 
 ### Week 5 Sprint
 **Overview of Weekly Plan:**
-- Everyone has access to Unity?
-- Set up a Git repo (GitHub)?
-- Decided on an idea for the game? 
-- Make sketches for the game?
-- Thought about user requirements?
-- Thought about the game mechanics?
+- Example 1
+- Example 2
+- Example 3 
 
 **Detailed Plan:**
 - On the [Trello Board: Week 5 Sprint](https://trello.com/b/bZQf9yUQ/week-5-sprint)
