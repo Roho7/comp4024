@@ -53,7 +53,7 @@ leave you with a simple playable game at a minimum.
 - [Week Overview](weekly-reports/week1/week1-Overview.md)
 - [Meeting Minutes](weekly-reports/week1/week1-Meeting.md)
 - [Game Requirements](weekly-reports/week1/week1-Requirements.md)
-- [Learning Outcomes](weekly-reports/week1/week1-learningOutcomes.md)
+- [Learning Outcomes](weekly-reports/week1/week1-LearningOutcomes.md)
 - [Chosen Game Idea](weekly-reports/week1/week1-FinalGameIdea.md)
 
 ---
