@@ -65,7 +65,7 @@ leave you with a simple playable game at a minimum.
 -   Set up a Kanban board with tasks
 -   Allocate team roles
 -   Decide on the Minimum Viable Product
--   Write some simple tests and code?
+-   Write some simple tests and code
 
 **Detailed Plan:**
 - On the [Trello Board: Week 2 Sprint](https://trello.com/b/bZQf9yUQ/week-2-sprint)
