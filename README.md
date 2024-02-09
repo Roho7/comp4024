@@ -50,11 +50,11 @@ leave you with a simple playable game at a minimum.
 - On the [Trello Board: Week 1 Sprint](https://trello.com/b/bZQf9yUQ/week-1-sprint)
 
 **Documentation:**
-- [Week Overview](weekly-reports\week1\week1-Overview.md)
-- [Meeting Minutes](weekly-reports\week1\week1-Meeting.md)
-- [Game Requirements](weekly-reports\week1\week1-Requirements.md)
-- [Learning Outcomes](weekly-reports\week1\week1-learningOutcomes.md)
-- [Chosen Game Idea](weekly-reports\week1\week1-FinalGameIdea.md)
+- [Week Overview](weekly-reports/week1/week1-Overview.md)
+- [Meeting Minutes](weekly-reports/week1/week1-Meeting.md)
+- [Game Requirements](weekly-reports/week1/week1-Requirements.md)
+- [Learning Outcomes](weekly-reports/week1/week1-learningOutcomes.md)
+- [Chosen Game Idea](weekly-reports/week1/week1-FinalGameIdea.md)
 
 ---
 
@@ -71,9 +71,9 @@ leave you with a simple playable game at a minimum.
 - On the [Trello Board: Week 2 Sprint](https://trello.com/b/bZQf9yUQ/week-2-sprint)
 
 **Documentation:**
-- [Week Overview](weekly-reports\week2\week2-Overview.md)
-- [Meeting Minutes](weekly-reports\week2\week2-Meeting.md)
-- [Personality Types](weekly-reports\week2\week2-Personality.md)
+- [Week Overview](weekly-reports/week2/week2-Overview.md)
+- [Meeting Minutes](weekly-reports/week2/week2-Meeting.md)
+- [Personality Types](weekly-reports/week2/week2-Personality.md)
 
 ---
 
@@ -90,8 +90,8 @@ leave you with a simple playable game at a minimum.
 - On the [Trello Board: Week 3 Sprint](https://trello.com/b/bZQf9yUQ/week-3-sprint)
 
 **Documentation:**
-- [Week Overview](weekly-reports\week3\week3-Overview.md)
-- [Meeting Minutes](weekly-reports\week3\week3-Meeting.md)
+- [Week Overview](weekly-reports/week3/week3-Overview.md)
+- [Meeting Minutes](weekly-reports/week3/week3-Meeting.md)
 
 ---
 
@@ -108,8 +108,8 @@ leave you with a simple playable game at a minimum.
 - On the [Trello Board: Week 4 Sprint](https://trello.com/b/bZQf9yUQ/week-4-sprint)
 
 **Documentation:**
-- [Week Overview](weekly-reports\week4\week4-Overview.md)
-- [Meeting Minutes](weekly-reports\week4\week4-Meeting.md)
+- [Week Overview](weekly-reports/week4/week4-Overview.md)
+- [Meeting Minutes](weekly-reports/week4/week4-Meeting.md)
 
 ---
 
@@ -126,8 +126,8 @@ leave you with a simple playable game at a minimum.
 - On the [Trello Board: Week 5 Sprint](https://trello.com/b/bZQf9yUQ/week-5-sprint)
 
 **Documentation:**
-- [Week Overview](weekly-reports\week5\week5-Overview.md)
-- [Meeting Minutes](weekly-reports\week5\week5-Meeting.md)
+- [Week Overview](weekly-reports/week5/week5-Overview.md)
+- [Meeting Minutes](weekly-reports/week5/week5-Meeting.md)
 
 
 # Git Usage
