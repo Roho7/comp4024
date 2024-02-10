@@ -38,17 +38,17 @@ public class PlayerLogic : MonoBehaviour
     {
 
         {
-            if (Input.GetKey(KeyCode.W) && !hasJumped)
+            if (Input.GetKey(KeyCode.UpArrow) && !hasJumped)
             {
                 player.velocity = Vector3.up * jumpforce;
                 hasJumped = true;
             }
-            if (Input.GetKey(KeyCode.A))
+            if (Input.GetKey(KeyCode.LeftArrow))
             {
                 player.transform.position += new Vector3(-speed, 0, 0);
                 player.transform.localScale = new Vector3(1, 1, 1);
             }
-            if (Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.RightArrow))
             {
                 player.transform.position += new Vector3(speed, 0, 0);
                 player.transform.localScale = new Vector3(-1, 1, 1);
