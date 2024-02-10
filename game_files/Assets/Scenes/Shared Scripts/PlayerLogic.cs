@@ -17,8 +17,7 @@ public class PlayerLogic : MonoBehaviour
 
     private string instruction = "";
 
-    // Start is called before the first frame update
-
+    // If the player has already jumped, then they cannot jump again until they land
     void OnCollisionEnter2D(Collision2D collision)
     {
 
@@ -31,8 +30,6 @@ public class PlayerLogic : MonoBehaviour
         questionText = GameObject.FindGameObjectWithTag("Question").GetComponent<Text>();
         instructionText = GameObject.FindGameObjectWithTag("InGameInstruction").GetComponent<Text>();
     }
-
-    // Update is called once per frame
 
     void Update()
     {
@@ -64,7 +61,6 @@ public class PlayerLogic : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-
                     textInputFieldHolder.SetActive(true);
                 }
                 questionText.text = "2+2=?";
