@@ -9,6 +9,7 @@ public class PlayerLogic : MonoBehaviour
     public Rigidbody2D player;
     public float speed = 0.01f;
     public float jumpforce = 5;
+    public float moveSpeed = 10;
     private bool hasJumped = false;
     public GameObject textInputFieldHolder;
     public QuestionAreaLogic questionAreaLogic;
@@ -42,12 +43,13 @@ public class PlayerLogic : MonoBehaviour
             }
             if (Input.GetKey(KeyCode.LeftArrow))
             {
-                player.transform.position += new Vector3(-speed, 0, 0);
+                player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
                 player.transform.localScale = new Vector3(1, 1, 1);
             }
             if (Input.GetKey(KeyCode.RightArrow))
             {
-                player.transform.position += new Vector3(speed, 0, 0);
+                player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
+
                 player.transform.localScale = new Vector3(-1, 1, 1);
             }
             if (!questionAreaLogic.isInZone)
