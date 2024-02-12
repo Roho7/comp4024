@@ -12,8 +12,8 @@
 |----------|-------------|-----------------------|
 |Leo       |             |                       |
 |Ringo     |             |                       |
-|Patwitra  |             |                       |
-|Charlie   |             |                       |
+|Patwitra  | Plant       | Finisher              |
+|Charlie   | Team Worker | Resource Investigator |
 |Hemal     | Team Worker | Resource Investigator |
 |Rohosen   |             |                       |
 
