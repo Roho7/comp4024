@@ -32,7 +32,7 @@ public class EnemyLogic : MonoBehaviour
             direction *= -1;
         }
 
-        enemy.transform.position += new Vector3(speed, 0, 0);
+        enemy.velocity = new Vector2(speed, 0);
         enemy.transform.localScale = new Vector3(direction, 1, 1);
     }
 }

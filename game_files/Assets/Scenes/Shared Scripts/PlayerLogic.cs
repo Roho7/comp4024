@@ -13,9 +13,11 @@ public class PlayerLogic : MonoBehaviour
     private bool hasJumped = false;
     public GameObject textInputFieldHolder;
     public QuestionAreaLogic questionAreaLogic;
+    public GameObject fireCharge;
     public Text questionText;
     public Text instructionText;
 
+    public bool hasFired = false;
     private string instruction = "";
 
     // If the player has already jumped, then they cannot jump again until they land
@@ -30,6 +32,7 @@ public class PlayerLogic : MonoBehaviour
         questionAreaLogic = GameObject.FindGameObjectWithTag("QuestionArea").GetComponent<QuestionAreaLogic>();
         questionText = GameObject.FindGameObjectWithTag("Question").GetComponent<Text>();
         instructionText = GameObject.FindGameObjectWithTag("InGameInstruction").GetComponent<Text>();
+        // fireCharge = GameObject.FindGameObjectWithTag('Firecharge'),GetComponent<Firecharge>();
     }
 
     void Update()
