@@ -4,7 +4,7 @@
 
 ### Team Roles
 
-![](Belbin%20Test.png)
+![BebinTest](./additional-files/Belbin%20Test.png)
 
 ### Team Results
 
@@ -21,7 +21,7 @@
 
 ### Team Roles
 
-![](./Team%20Roles.png)
+![TeamRoles](./additional-files/Team%20Roles.pngg)
 
 ### Suggested Roles for the Team
 
