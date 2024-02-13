@@ -1,6 +1,45 @@
-**Meeting Template: (Example Title: Sprint 1 – Meeting)**
+**Meeting Template: Week 2 - Monday Meeting**
 
-**Pre-Meeting Review:**
+**Meeting Notes:**
+
+This meeting began with the sharing of the weeks work, including: 
+- The initial code fot the first level and main menu.
+- The Sprtie design for the game.
+- The initial level design.
+- The creation of the first set of question for the player.
+
+We worked as a group to:
+- Decide team roles.
+- Come to a conclusion on an MVP.
+- Begin thinking about goals for the next week.
+
+We then discussed some issues that needed to be resolved:
+- Best way of linking the menu scence to the different game scences.
+- The best format for allowing the the art design to be added to the game.
+- How to create a system allowing simple level design.
+
+The meeting ended with a summary and some goals to be completed for the next lab:
+- Completing MBTI test as an additional personality test.
+- Recording each persons work in this file.
+- A formal write up of our decided MVP.
+- Review of the best way to do unit tests in unity.
+
+**Meeting Stats:**
+
+Meeting Length - approximatley 35 mins.
+
+Attendance –
+
+| Name     | Attended? |
+| ---      | --- |
+| Hemal    | Yes |
+| Rohosen  | Yes |
+| Leo      | Yes |
+| Wei-Che  | Yes |
+| Jingwen  | Yes |
+| Patwitra | Yes |
+
+**Personal Meeting Review:**
 
 Hemal Panchal [psyhp2@nottingham.ac.uk](mailto:psyhp2@nottingham.ac.uk)
 
@@ -17,8 +56,11 @@ Rohosen Bhattacharya [psxrb10@nottingham.ac.uk](mailto:psxrb10@nottingham.ac.uk)
 Leo Meyler [psylm10@nottingham.ac.uk](mailto:psylm10@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
-2. What are you working on moving forward from this meeting?
-3. Any challenges to your progress?
+- I have worked on a placeholder main menu design, that will allow art from the design team to be tested and implemented quickly.
+3. What are you working on moving forward from this meeting?
+- I will help finalise some documentation, as well as learn about unit testing in unity, and add functionality to the main menu.
+4. Any challenges to your progress?
+- There was an issue regarding file sturcture and linking to different scenes which has been resolved in this meeting.
 
 Wei-Che Lin [alywl40@nottingham.ac.uk](mailto:alywl40@nottingham.ac.uk)
 
@@ -38,21 +80,3 @@ Patwitra Kultanarueangnon [alypk2@nottingham.ac.uk](mailto:alypk2@nottingham.ac.
 2. What are you working on moving forward from this meeting?
 3. Any challenges to your progress?
 
-**Meeting Notes:**
-
-Three or four bullet points outlining what we talked about in the meeting so that people can reference it later on or someone who missed the meeting can look at to understand.
-
-**Meeting Stats:**
-
-Meeting Length - in hours and minutes
-
-Attendance –
-
-| Name     | Attended? |
-| ---      | --- |
-| Hemal    |  Yes/No |
-| Rohosen  | Yes/No |
-| Leo      | Yes/No |
-| Wei-Che  | Yes/No |
-| Jingwen  | Yes/No |
-| Patwitra | Yes/No |
