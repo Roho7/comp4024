@@ -11,7 +11,7 @@
 | Name     | Main Role   | Sub Role              | 
 |----------|-------------|-----------------------|
 |Leo       |             |                       |
-|Ringo     |             |                       |
+|Ringo     | Plant       | Coordinator           |
 |Patwitra  | Plant       | Finisher              |
 |Charlie   | Team Worker | Resource Investigator |
 |Hemal     | Team Worker | Resource Investigator |
