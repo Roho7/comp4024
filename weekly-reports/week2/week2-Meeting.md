@@ -77,6 +77,9 @@ Jingwen Xu [alyjx30@nottingham.ac.uk](mailto:alyjx30@nottingham.ac.uk)
 Patwitra Kultanarueangnon [alypk2@nottingham.ac.uk](mailto:alypk2@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
+- I designed graphics for character design, level 1 components, and the menu screen.
 2. What are you working on moving forward from this meeting?
+- I added my data to GitHub and have been thinking about a checklist for additional UI design.
 3. Any challenges to your progress?
+- I faced a lack of understanding about the game design process in Unity, but this was resolved by asking more questions during the meeting.
 
