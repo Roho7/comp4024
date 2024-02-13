@@ -12,7 +12,7 @@
 | -------- | ----------- | --------------------- | ---- |
 | Leo      | Implementer | Team Worker           | ISTP |
 | Ringo    | Plant       | Coordinator           |  |
-| Patwitra | Plant       | Finisher              |  |
+| Patwitra | Plant       | Finisher              | INTP |
 | Charlie  | Team Worker | Resource Investigator |  |
 | Hemal    | Team Worker | Resource Investigator |  |
 | Rohosen  | Implementer | Monitor               |  |
@@ -45,6 +45,6 @@ To descide upon our final team roles, we have used the results of the personalit
 | Leo      | Development + testing |
 | Ringo    | Game Design + Documentation |
 | Patwitra | Game Design + Graphic Design |
-| Charlie  | Level Design + Grpahic Design |
+| Charlie  | Level Design + Graphic Design |
 | Hemal    | Documentaion + Development |
 | Rohosen  | Development + testing    |
