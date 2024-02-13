@@ -26,4 +26,4 @@ A set of questions ([here](week2-MathsQuestions.md)) have been created for initi
 
 ## Other
 
-A Minimum Viable Product has been decided upon, team roles have been allocated, and documentation has been done. More information can be found on the readme page ([here](README.md)) under the "week 2" section.
+A Minimum Viable Product has been decided upon, team roles have been allocated, and documentation has been done. More information can be found on the readme page ([here](../../README.md)) under the "week 2" section.
