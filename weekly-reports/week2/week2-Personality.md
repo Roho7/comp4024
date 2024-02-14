@@ -21,7 +21,7 @@
 
 ### Team Roles
 
-![TeamRoles](./additional-files/Team%20Roles.pngg)
+![TeamRoles](./additional-files/Team%20Roles.png)
 
 ### Suggested Roles for the Team
 
