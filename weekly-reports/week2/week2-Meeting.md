@@ -65,8 +65,11 @@ Leo Meyler [psylm10@nottingham.ac.uk](mailto:psylm10@nottingham.ac.uk)
 Wei-Che Lin [alywl40@nottingham.ac.uk](mailto:alywl40@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
+- I created 'Kanban board' and 'Product requirement document' content on Jira.
 2. What are you working on moving forward from this meeting?
+- I will help update the Github content to Jira to help with project management.
 3. Any challenges to your progress?
+- I was a little unfamiliar with how to update information to Github which has been resolved in this meeting.
 
 Jingwen Xu [alyjx30@nottingham.ac.uk](mailto:alyjx30@nottingham.ac.uk)
 
