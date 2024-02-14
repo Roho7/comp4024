@@ -11,7 +11,7 @@
 | Name     | Main Role   | Sub Role              | MBTI |
 | -------- | ----------- | --------------------- | ---- |
 | Leo      | Implementer | Team Worker           | ISTP |
-| Ringo    | Plant       | Coordinator           |  |
+| Ringo    | Plant       | Coordinator           | ENFP |
 | Patwitra | Plant       | Finisher              | INTP |
 | Charlie  | Team Worker | Resource Investigator |  |
 | Hemal    | Team Worker | Resource Investigator |  |
