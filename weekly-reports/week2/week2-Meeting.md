@@ -44,8 +44,11 @@ Attendance –
 Hemal Panchal [psyhp2@nottingham.ac.uk](mailto:psyhp2@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
-2. What are you working on moving forward from this meeting?
-3. Any challenges to your progress?
+- I worked on documentation such as the 'Personality', 'MVP', 'FinalGameIdea' and 'Requirements'. Also, I refactored the ReadME file to be more organised.
+3. What are you working on moving forward from this meeting?
+- I will help with programming the levels for the game in Unity.
+4. Any challenges to your progress?
+- There was an issue when I tried to pull the game from GitHub to my Unity, it was giving me an error. I resolved the issue after looking through some Stack Overflow pages.
 
 Rohosen Bhattacharya [psxrb10@nottingham.ac.uk](mailto:psxrb10@nottingham.ac.uk)
 
