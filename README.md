@@ -94,6 +94,7 @@ leave you with a simple playable game at a minimum.
 - Compete the first level gameplay.
 - Complete menu screen with latest design.
 - Write level 1 unit tests.
+- Convert levels to tile map rendering.
 
 **Detailed Plan:**
 
