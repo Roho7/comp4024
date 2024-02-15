@@ -13,9 +13,9 @@
 | Leo      | Implementer | Team Worker           | ISTP |
 | Ringo    | Plant       | Coordinator           | ENFP |
 | Patwitra | Plant       | Finisher              | INTP |
-| Charlie  | Team Worker | Resource Investigator |  |
-| Hemal    | Team Worker | Resource Investigator |  |
-| Rohosen  | Implementer | Monitor               |  |
+| Charlie  | Team Worker | Resource Investigator | EMFP |
+| Hemal    | Team Worker | Resource Investigator |      |
+| Rohosen  | Implementer | Monitor               | INTJ |
 
 ## Suggested Roles in Teams of Six
 
@@ -25,14 +25,14 @@
 
 ### Suggested Roles for the Team
 
-| Name     | Role                        |
-| -------- | --------------------------- |
-| Leo      | Implementer                 |
+| Name     | Role                             |
+| -------- | -------------------------------- |
+| Leo      | Implementer                      |
 | Ringo    | Technical lead / Project Manager |
-| Patwitra | Technical lead / Testing    |
-| Charlie  | Documentation / Researcher  |
-| Hemal    | Documentation / Implementer |
-| Rohosen  | Developer / Implementer     |
+| Patwitra | Technical lead / Testing         |
+| Charlie  | Documentation / Researcher       |
+| Hemal    | Documentation / Implementer      |
+| Rohosen  | Developer / Implementer          |
 
 ## Decided Team Roles
 
@@ -40,11 +40,11 @@ To descide upon our final team roles, we have used the results of the personalit
 
 ### Final Team Roles
 
-| Name     | Role |
-| -------- | ---- |
-| Leo      | Development + testing |
-| Ringo    | Game Design + Documentation |
-| Patwitra | Game Design + Graphic Design |
+| Name     | Role                          |
+| -------- | ----------------------------- |
+| Leo      | Development + testing         |
+| Ringo    | Game Design + Documentation   |
+| Patwitra | Game Design + Graphic Design  |
 | Charlie  | Level Design + Graphic Design |
-| Hemal    | Documentaion + Development |
-| Rohosen  | Development + testing    |
+| Hemal    | Documentaion + Development    |
+| Rohosen  | Development + testing         |

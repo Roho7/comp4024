@@ -2,6 +2,7 @@
 
 ## Concept Design
 
+![proposal](./idea-fies/game-idea-hemal.png)
 
 ## Game Description:
 
@@ -13,30 +14,30 @@ A thrilling 2D puzzle platform adventure designed for young learners aged 11-14.
 
 ### 1\. Platforming Elements:
 
--   **Movement:** Player controls a character who can run and jump.
--   **Obstacles:** Avoid environmental hazards like spikes, pits, and moving platforms.
--   **Collectibles:** Gather coins or special items that contribute to the game score or unlock special abilities.
+- **Movement:** Player controls a character who can run and jump.
+- **Obstacles:** Avoid environmental hazards like spikes, pits, and moving platforms.
+- **Collectibles:** Gather coins or special items that contribute to the game score or unlock special abilities.
 
 ### 2\. Math Puzzle Integration:
 
--   **Puzzle Gates:** Certain paths are blocked by gates that can only be opened by solving math puzzles. These puzzles vary in difficulty and type, including arithmetic operations, fractions, and basic algebra.
--   **Interactive Elements (Add-on):** Some puzzles involve manipulating objects in the game world to represent mathematical concepts, such as balancing scales to understand equations.
+- **Puzzle Gates:** Certain paths are blocked by gates that can only be opened by solving math puzzles. These puzzles vary in difficulty and type, including arithmetic operations, fractions, and basic algebra.
+- **Interactive Elements (Add-on):** Some puzzles involve manipulating objects in the game world to represent mathematical concepts, such as balancing scales to understand equations.
 
 ### 3\. Adaptive Difficulty:
 
--   The game ensures a challenging yet achievable progression. The questions and the enemy behaviour become progressively more difficult as the game moves forward.
+- The game ensures a challenging yet achievable progression. The questions and the enemy behaviour become progressively more difficult as the game moves forward.
 
 ### 4\. In-Game Rewards and Feedback:
 
--   **Instant Feedback:** Players receive immediate feedback on their puzzle solutions, with correct answers allowing progress and incorrect answers offering hints or additional tries.
--   **Rewards:** Successful puzzle completion rewards players with access to new areas, encouraging continued engagement.
+- **Instant Feedback:** Players receive immediate feedback on their puzzle solutions, with correct answers allowing progress and incorrect answers offering hints or additional tries.
+- **Rewards:** Successful puzzle completion rewards players with access to new areas, encouraging continued engagement.
 
 ### 5\. Educational Content Integration:
 
--   **Contextual Learning:** Math puzzles are integrated into the game's narrative and environment, making learning a natural part of the gameplay experience.
--   **Progress Tracking:** Players can track their progress through the game, including puzzles solved, concepts mastered, and areas unlocked.
+- **Contextual Learning:** Math puzzles are integrated into the game's narrative and environment, making learning a natural part of the gameplay experience.
+- **Progress Tracking:** Players can track their progress through the game, including puzzles solved, concepts mastered, and areas unlocked.
 
 ### 6\. Accessibility Features:
 
--   **Hint System:** Players can access hints for puzzles after several unsuccessful attempts, ensuring that all players can progress and learn at their own pace.
--   **Customizable Controls (Add-on):** Allows players to adjust controls for comfort and accessibility, ensuring the game is enjoyable for everyone.
+- **Hint System:** Players can access hints for puzzles after several unsuccessful attempts, ensuring that all players can progress and learn at their own pace.
+- **Customizable Controls (Add-on):** Allows players to adjust controls for comfort and accessibility, ensuring the game is enjoyable for everyone.
