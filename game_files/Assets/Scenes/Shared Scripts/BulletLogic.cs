@@ -11,6 +11,10 @@ public class BulletLogic : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision == null)
+        {
+            Debug.Log("No collision");
+        }
         Destroy(collision.gameObject);
         Destroy(gameObject);
     }

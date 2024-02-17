@@ -23,7 +23,10 @@ public class PlayerLogic : MonoBehaviour
     // If the player has already jumped, then they cannot jump again until they land
     void OnCollisionEnter2D(Collision2D collision)
     {
-
+        if (collision == null)
+        {
+            Debug.Log("No collision object for player jump");
+        }
         hasJumped = false;
 
     }

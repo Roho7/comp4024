@@ -11,7 +11,12 @@ public class CamController : MonoBehaviour
     public Transform player;
     public void FixedUpdate()
     {
+        if (!player)
+        {
+            Debug.Log("No player");
+        }
         Vector3 playerPos = GetComponent<Transform>().position;
+
 
         playerPos.x = player.position.x;
         playerPos.y = player.position.y;
