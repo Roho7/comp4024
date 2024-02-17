@@ -9,18 +9,20 @@ public class CamController : MonoBehaviour
     public float smoothTime;
 
     public Transform player;
-    public void FixedUpdate()
+    public float yOffset = 0.5f;
+    public void Update()
     {
         if (!player)
         {
             Debug.Log("No player");
         }
-        Vector3 playerPos = GetComponent<Transform>().position;
+        // Vector3 playerPos = GetComponent<Transform>().position;
+        Vector3 playerTarget = new Vector3(player.position.x, player.position.y + yOffset, -10f);
+        transform.position = Vector3.Slerp(transform.position, playerTarget, smoothTime * Time.deltaTime);
 
+        //     playerPos.x = player.position.x;
+        //     playerPos.y = player.position.y;
 
-        playerPos.x = player.position.x;
-        playerPos.y = player.position.y;
-
-        GetComponent<Transform>().position = playerPos;
+        //     GetComponent<Transform>().position = playerPos;
     }
-}
+};

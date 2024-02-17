@@ -539,8 +539,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0
-  smoothTime: 0.255
+  smoothTime: 1
   player: {fileID: 912434417}
+  yOffset: 2.5
 --- !u!1 &670285788
 GameObject:
   m_ObjectHideFlags: 0

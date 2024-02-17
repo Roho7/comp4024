@@ -50,13 +50,13 @@ public class PlayerLogic : MonoBehaviour
             if (Input.GetKey(KeyCode.LeftArrow))
             {
                 player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
-                player.transform.localScale = new Vector3(1, 1, 1);
+                player.transform.localScale = new Vector3(-1, 1, 1);
             }
             if (Input.GetKey(KeyCode.RightArrow))
             {
                 player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
 
-                player.transform.localScale = new Vector3(-1, 1, 1);
+                player.transform.localScale = new Vector3(1, 1, 1);
             }
             if (!questionAreaLogic.isInZone)
             {
