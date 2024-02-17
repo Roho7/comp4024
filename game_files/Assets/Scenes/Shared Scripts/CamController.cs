@@ -16,13 +16,7 @@ public class CamController : MonoBehaviour
         {
             Debug.Log("No player");
         }
-        // Vector3 playerPos = GetComponent<Transform>().position;
         Vector3 playerTarget = new Vector3(player.position.x, player.position.y + yOffset, -10f);
         transform.position = Vector3.Slerp(transform.position, playerTarget, smoothTime * Time.deltaTime);
-
-        //     playerPos.x = player.position.x;
-        //     playerPos.y = player.position.y;
-
-        //     GetComponent<Transform>().position = playerPos;
     }
 };
