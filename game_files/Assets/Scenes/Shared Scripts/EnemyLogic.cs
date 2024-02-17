@@ -13,15 +13,6 @@ public class EnemyLogic : MonoBehaviour
     int direction = -1;
 
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-
     void Update()
     {
         moveTimer += Time.deltaTime;
@@ -34,5 +25,12 @@ public class EnemyLogic : MonoBehaviour
 
         enemy.velocity = new Vector2(speed, 0);
         enemy.transform.localScale = new Vector3(direction, 1, 1);
+    }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

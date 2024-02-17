@@ -82,6 +82,7 @@ leave you with a simple playable game at a minimum.
 - [Meeting Minutes](weekly-reports/week2/week2-Meeting.md)
 - [Personality Types](weekly-reports/week2/week2-Personality.md)
 - [Minimum Viable Product](weekly-reports/week2/week2-MVP.md)
+- [User Story](weekly-reports/week2/week2-UserStory.md)
 
 ---
 
@@ -95,6 +96,7 @@ leave you with a simple playable game at a minimum.
 - Complete menu screen with latest design.
 - Write level 1 unit tests.
 - Convert levels to tile map rendering.
+- Create a class diagram and a activity diagram.
 
 **Detailed Plan:**
 

@@ -23,7 +23,10 @@ public class PlayerLogic : MonoBehaviour
     // If the player has already jumped, then they cannot jump again until they land
     void OnCollisionEnter2D(Collision2D collision)
     {
-
+        if (collision == null)
+        {
+            Debug.Log("No collision object for player jump");
+        }
         hasJumped = false;
 
     }
@@ -47,13 +50,13 @@ public class PlayerLogic : MonoBehaviour
             if (Input.GetKey(KeyCode.LeftArrow))
             {
                 player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
-                player.transform.localScale = new Vector3(1, 1, 1);
+                player.transform.localScale = new Vector3(-1, 1, 1);
             }
             if (Input.GetKey(KeyCode.RightArrow))
             {
                 player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
 
-                player.transform.localScale = new Vector3(-1, 1, 1);
+                player.transform.localScale = new Vector3(1, 1, 1);
             }
             if (!questionAreaLogic.isInZone)
             {
