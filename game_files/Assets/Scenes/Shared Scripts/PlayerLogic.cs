@@ -13,10 +13,8 @@ public class PlayerLogic : MonoBehaviour
     private bool hasJumped = false;
     public GameObject textInputFieldHolder;
     public QuestionAreaLogic questionAreaLogic;
-    public GameObject fireCharge;
-    public Text questionText;
-    public Text instructionText;
-
+    public TMPro.TextMeshProUGUI questionText;
+    public TMPro.TextMeshProUGUI instructionText;
     public bool hasFired = false;
     private string instruction = "";
 
@@ -33,9 +31,8 @@ public class PlayerLogic : MonoBehaviour
     void Start()
     {
         questionAreaLogic = GameObject.FindGameObjectWithTag("QuestionArea").GetComponent<QuestionAreaLogic>();
-        questionText = GameObject.FindGameObjectWithTag("Question").GetComponent<Text>();
-        instructionText = GameObject.FindGameObjectWithTag("InGameInstruction").GetComponent<Text>();
-        // fireCharge = GameObject.FindGameObjectWithTag('Firecharge'),GetComponent<Firecharge>();
+        questionText = GameObject.FindGameObjectWithTag("Question").GetComponent<TMPro.TextMeshProUGUI>();
+        instructionText = GameObject.FindGameObjectWithTag("InGameInstruction").GetComponent<TMPro.TextMeshProUGUI>();
     }
 
     void Update()
@@ -72,7 +69,7 @@ public class PlayerLogic : MonoBehaviour
                     textInputFieldHolder.SetActive(true);
                 }
                 questionText.text = "2+2=?";
-                instruction = "Press 'E' to answer the question.";
+                instruction = "Press 'E' to answer.";
                 instructionText.text = instruction;
             }
         }
