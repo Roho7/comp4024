@@ -21,8 +21,11 @@ public class LevelSelector : MonoBehaviour
             string checkString = sceneToAdd.Substring(0,5);
             if ( checkString == "Level"){
                 scenes[i] = sceneToAdd;
-                Debug.Log(scenes[i]);
+                Debug.Log(scenes[i] + " has been added to levels");
                 addLevelButton(sceneToAdd);
+            }else{
+                Debug.Log(sceneToAdd + " has not been added to levels");
+
             }
         }
 
@@ -31,7 +34,7 @@ public class LevelSelector : MonoBehaviour
     public void addLevelButton(string sceneName){
         Button LvlSelectBtn = Instantiate( LvlSelectBtnPrefab ) ;
         LvlSelectBtn.transform.SetParent(LevelPanel.transform, false);
-        LvlSelectBtn.onClick.AddListener(delegate() { SceneManager.LoadScene(sceneName); });
+        LvlSelectBtn.onClick.AddListener(delegate() { Debug.Log("scene: " + sceneName + " should be loaded."); SceneManager.LoadScene(sceneName); });
     }
         
 }

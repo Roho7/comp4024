@@ -15,7 +15,10 @@ public class BulletLogic : MonoBehaviour
         {
             Debug.Log("No collision");
         }
+        Debug.Log("object destroyed, active should be false, is: " + collision.gameObject.activeInHierarchy);
+
         Destroy(collision.gameObject);
         Destroy(gameObject);
+        
     }
 }

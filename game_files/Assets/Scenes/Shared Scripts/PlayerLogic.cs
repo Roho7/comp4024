@@ -41,22 +41,30 @@ public class PlayerLogic : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.UpArrow) && !hasJumped)
             {
+                Debug.Log("Player Jumped should be False, is: " + hasJumped);
                 player.velocity = Vector3.up * jumpforce;
                 hasJumped = true;
+                Debug.Log("Player Jumped should be True, is: " + hasJumped);
+
             }
             if (Input.GetKey(KeyCode.LeftArrow))
             {
                 player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
                 player.transform.localScale = new Vector3(-1, 1, 1);
+                Debug.Log("player moving left, x component of vector should be negative, is: " + player.transform.localScale);
             }
             if (Input.GetKey(KeyCode.RightArrow))
             {
                 player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
-
                 player.transform.localScale = new Vector3(1, 1, 1);
+                Debug.Log("player moving left, x component of vector should be positive, is: " + player.transform.localScale);
+
             }
             if (!questionAreaLogic.isInZone)
-            {
+            {   
+                if(textInputFieldHolder.activeInHierarchy){
+                    Debug.Log("textInputFieldHolder is True, should be False, Set to False");
+                }
                 textInputFieldHolder.SetActive(false);
                 questionText.text = "";
                 instruction = "";
@@ -67,6 +75,7 @@ public class PlayerLogic : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     textInputFieldHolder.SetActive(true);
+                    Debug.Log("textInputFieldHolder should be " + Input.GetKeyDown(KeyCode.E) + ", is: " + textInputFieldHolder.activeInHierarchy);
                 }
                 questionText.text = "2+2=?";
                 instruction = "Press 'E' to answer.";

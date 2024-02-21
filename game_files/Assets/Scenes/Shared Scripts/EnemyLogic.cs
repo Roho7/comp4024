@@ -30,6 +30,7 @@ public class EnemyLogic : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
+            Debug.Log("Collision with bullet");
             Destroy(gameObject);
         }
     }
