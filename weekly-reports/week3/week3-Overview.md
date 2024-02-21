@@ -1,5 +1,23 @@
 # Week 3 Overview
 
+## Brief Overview of Work Compelted
+
+![main menu design](./additional-files/main-menu-design.png)
+
+The design team worked hard to make a new main menu design, and continue their work on level design.
+
+![main menu](./additional-files/main-menu.png)
+
+Functionality for the main menu was made, old art was added to it before the new art was finished.
+
+![bullet](./additional-files/bullet-mechanic.png)
+
+Functionality allowing the player to shoot has been made.
+
+![Burn Down](./additional-files/burn-down.png)
+
+A burn down chart for this week has been made.
+
 ## Retrospective:
 ### What Went Well
 - We added in more art to the first level, and added more functionality. The player shooting mechanic is now more polished, and the player script now passes its test, which check to make sure the player can not jump infinitely.
