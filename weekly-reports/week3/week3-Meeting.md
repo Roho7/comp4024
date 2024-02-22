@@ -32,14 +32,20 @@ Wei-Che Lin [alywl40@nottingham.ac.uk](mailto:alywl40@nottingham.ac.uk)
 Jingwen Xu [alyjx30@nottingham.ac.uk](mailto:alyjx30@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
+   - I designed the game interface of level 2, including scene elements, items.
 2. What are you working on moving forward from this meeting?
+   - I modify my design of level 2.
 3. Any challenges to your progress?
+   - There were something really same as level 1, so I make some new creation.
 
 Patwitra Kultanarueangnon [alypk2@nottingham.ac.uk](mailto:alypk2@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
+  - I designed graphics for the menu screens, select level page, character animation.
 2. What are you working on moving forward from this meeting?
+  - I will continue to refine the interface design and update the Github content.
 3. Any challenges to your progress?
+  - I had some issues with time management.
 
 **Meeting Notes:**
 
