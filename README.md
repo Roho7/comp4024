@@ -106,6 +106,7 @@ leave you with a simple playable game at a minimum.
 - [Week Overview](weekly-reports/week3/week3-Overview.md)
 - [Meeting Minutes](weekly-reports/week3/week3-Meeting.md)
 - [Test Cases](test-cases.md)
+- [Diagrams](weekly-reports/week3/week3-Diagrams.md)
 ---
 
 ### Week 4 Sprint
