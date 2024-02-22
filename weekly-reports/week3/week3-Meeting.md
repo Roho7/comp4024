@@ -59,9 +59,9 @@ Attendance –
 
 | Name     | Attended? |
 | ---      | --- |
-| Hemal    |  Yes/No |
-| Rohosen  | Yes/No |
-| Leo      | Yes/No |
-| Wei-Che  | Yes/No |
-| Jingwen  | Yes/No |
-| Patwitra | Yes/No |
+| Hemal    | Yes |
+| Rohosen  | Yes |
+| Leo      | Yes |
+| Wei-Che  | Yes |
+| Jingwen  | Yes |
+| Patwitra | Yes |
