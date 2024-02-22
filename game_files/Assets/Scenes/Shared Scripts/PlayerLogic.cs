@@ -13,10 +13,13 @@ public class PlayerLogic : MonoBehaviour
     private bool hasJumped = false;
     public GameObject textInputFieldHolder;
     public QuestionAreaLogic questionAreaLogic;
+    public SubmitAnswerLogic submitAnswerLogic;
     public TMPro.TextMeshProUGUI questionText;
     public TMPro.TextMeshProUGUI instructionText;
     public bool hasFired = false;
     private string instruction = "";
+
+
 
     // If the player has already jumped, then they cannot jump again until they land
     void OnCollisionEnter2D(Collision2D collision)
@@ -31,6 +34,7 @@ public class PlayerLogic : MonoBehaviour
     void Start()
     {
         questionAreaLogic = GameObject.FindGameObjectWithTag("QuestionArea").GetComponent<QuestionAreaLogic>();
+        submitAnswerLogic = GameObject.FindGameObjectWithTag("AnswerTracker").GetComponent<SubmitAnswerLogic>();
         questionText = GameObject.FindGameObjectWithTag("Question").GetComponent<TMPro.TextMeshProUGUI>();
         instructionText = GameObject.FindGameObjectWithTag("InGameInstruction").GetComponent<TMPro.TextMeshProUGUI>();
     }
@@ -61,8 +65,9 @@ public class PlayerLogic : MonoBehaviour
 
             }
             if (!questionAreaLogic.isInZone)
-            {   
-                if(textInputFieldHolder.activeInHierarchy){
+            {
+                if (textInputFieldHolder.activeInHierarchy)
+                {
                     Debug.Log("textInputFieldHolder is True, should be False, Set to False");
                 }
                 textInputFieldHolder.SetActive(false);
@@ -77,10 +82,11 @@ public class PlayerLogic : MonoBehaviour
                     textInputFieldHolder.SetActive(true);
                     Debug.Log("textInputFieldHolder should be " + Input.GetKeyDown(KeyCode.E) + ", is: " + textInputFieldHolder.activeInHierarchy);
                 }
-                questionText.text = "2+2=?";
+                questionText.text = submitAnswerLogic.question;
                 instruction = "Press 'E' to answer.";
                 instructionText.text = instruction;
             }
+
         }
     }
 }

@@ -8,6 +8,8 @@ TagManager:
   - Question
   - InputField
   - InGameInstruction
+  - Bullet
+  - AnswerTracker
   layers:
   - Default
   - TransparentFX

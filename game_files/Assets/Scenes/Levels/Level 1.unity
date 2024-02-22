@@ -575,7 +575,7 @@ Transform:
   m_GameObject: {fileID: 661021673}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.0902843, y: -2.47459, z: -11}
+  m_LocalPosition: {x: -7.27052, y: -2.4752266, z: -11}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1145,7 +1145,7 @@ GameObject:
   - component: {fileID: 1027521874}
   m_Layer: 0
   m_Name: Points
-  m_TagString: Untagged
+  m_TagString: AnswerTracker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1162,6 +1162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0090b6447ff5245f5ba0a5edeb3e59bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  answerInput: 
+  question: What is 2+2?
   correctAnswer: 4
   obstacle: {fileID: 929866408}
 --- !u!4 &1027521875
@@ -1277,7 +1279,7 @@ GameObject:
   - component: {fileID: 1199949613}
   - component: {fileID: 1199949617}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: TextObjects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1457,12 +1459,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1319634301}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.06, y: -1.3, z: -1.36}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.2258067, y: 0.03225803, z: -4.3870964}
+  m_LocalScale: {x: 3.2258062, y: 3.2258062, z: 3.2258062}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1483134027}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1483134026
 GameObject:
@@ -1499,6 +1501,7 @@ Transform:
   - {fileID: 670285789}
   - {fileID: 517165166}
   - {fileID: 1151314755}
+  - {fileID: 1319634303}
   - {fileID: 1796510368}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1574,7 +1577,7 @@ Transform:
   m_GameObject: {fileID: 1505005630}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.61, y: -4.78, z: -1}
+  m_LocalPosition: {x: 4.44, y: -4.2, z: -1}
   m_LocalScale: {x: 4.89, y: 1.78, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2376,7 +2379,7 @@ PrefabInstance:
     - target: {fileID: 6456122384751744300, guid: 9ba824174dc094f87baa4d43444882b1, type: 3}
       propertyPath: questionText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 589059715}
     - target: {fileID: 6456122384751744300, guid: 9ba824174dc094f87baa4d43444882b1, type: 3}
       propertyPath: instructionText
       value: 
@@ -2419,11 +2422,10 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 661021676}
+  - {fileID: 1848880665}
   - {fileID: 6532091764521254525}
+  - {fileID: 1727901715}
   - {fileID: 1505005632}
   - {fileID: 1199949616}
-  - {fileID: 1483134027}
   - {fileID: 1027521875}
-  - {fileID: 1727901715}
-  - {fileID: 1319634303}
-  - {fileID: 1848880665}
+  - {fileID: 1483134027}
