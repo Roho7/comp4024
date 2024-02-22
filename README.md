@@ -104,6 +104,7 @@ leave you with a simple playable game at a minimum.
 **Documentation:**
 
 - [Week Overview](weekly-reports/week3/week3-Overview.md)
+- [Meeting Minutes](weekly-reports/week3/week3-Meeting.md)
 - [Test Cases](test-cases.md)
 ---
 
