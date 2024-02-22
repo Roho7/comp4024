@@ -5,8 +5,11 @@
 Hemal Panchal [psyhp2@nottingham.ac.uk](mailto:psyhp2@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
-2. What are you working on moving forward from this meeting?
-3. Any challenges to your progress?
+   - Created a usecase diagram outling users and created a class diagram outling how the code should be layed out.
+3. What are you working on moving forward from this meeting?
+   - I would like to get more familiar with the code and help create a level.
+5. Any challenges to your progress?
+  - Unfortunatley my laptop broke therefore I did not get to work with the code also I was very time constraited this week.
 
 Rohosen Bhattacharya [psxrb10@nottingham.ac.uk](mailto:psxrb10@nottingham.ac.uk)
 
@@ -20,14 +23,20 @@ Rohosen Bhattacharya [psxrb10@nottingham.ac.uk](mailto:psxrb10@nottingham.ac.uk)
 Leo Meyler [psylm10@nottingham.ac.uk](mailto:psylm10@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
-2. What are you working on moving forward from this meeting?
-3. Any challenges to your progress?
+   - The automatic loading of playable levels into the main menu.
+3. What are you working on moving forward from this meeting?
+   - Begin helping the implementation of gameplay features.
+5. Any challenges to your progress?
+   - Need to add updated art to main menu, Need to decide on the best way to load questions dynamically.
 
 Wei-Che Lin [alywl40@nottingham.ac.uk](mailto:alywl40@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
-2. What are you working on moving forward from this meeting?
-3. Any challenges to your progress?
+   - Created a Flowchart demonstrating the main gameplay loop. Creation of the burn down chart and other documentation.
+3. What are you working on moving forward from this meeting?
+   - Assisting level 2 design, and implementation.
+5. Any challenges to your progress?
+   - Needed assistance to start understanding the code.
 
 Jingwen Xu [alyjx30@nottingham.ac.uk](mailto:alyjx30@nottingham.ac.uk)
 
