@@ -32,22 +32,18 @@ To achive this we have a set of Objectives:
 
 ## Scope of MVP
 
-The Minimum Viable Product (MVP) will consist of a 2D platformer game that has 3 levels, each with 1-2 questions for students to answer. There will be a selection screen which allows the player to choose what level they would like to play. Each level will be populated with enemies. A set of maths questions will be made that are suitable for the age group and cover a variety of relevant topics in varying levels of difficulty.
+The Minimum Viable Product (MVP) will consist of a 2D platformer game that has 1 levels, each with 1-2 questions for students to answer. There will be a selection screen which allows the player to choose what level they would like to play. Each level will be populated with enemies. A set of maths questions will be made that are suitable for the age group and cover a variety of relevant topics in varying levels of difficulty.
 
-Importantly, the software will work in such a way that it can easily be extended, by creating new levels in the scene builder and adding them to the main menu. The questions will not be hard coded, and will allow the importing of different question sets on different subjects and and topics into the game.
+
 
 Other important features of the MVP:
 
 - Game:
-    - Custom made graphics.
     - Hand made level design.
-    - An option to select levels of different difficulty.
+    - 1 level and a menu screen.
+    - An option to select levels of different difficulty
+    - Ability to answer question.
     - A score system which ranks the player.
-- Player: 
-    - Robust player movement, allowing basic navigation as well as jumping, and dropping down platforms.
-    - Competent enemy intelligence, which will pose a threat to the player.
-    - Interaction between the player and enemy in the form of shooting / attacking.
-    - The player is able to take damage, and potentially fail the level.
 - Learning outcomes:
     - The player should be enaged and encouraged to keep playing.
     - Questions should do a good job of testing and solidifying player knowledge.
