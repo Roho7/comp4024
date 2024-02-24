@@ -96,6 +96,7 @@ leave you with a simple playable game at a minimum.
 - Complete menu screen with latest design.
 - Convert levels to tile map rendering.
 - Create a class diagram and a activity diagram.
+- Complete level 2 design.
 
 **Detailed Plan:**
 
@@ -104,16 +105,18 @@ leave you with a simple playable game at a minimum.
 **Documentation:**
 
 - [Week Overview](weekly-reports/week3/week3-Overview.md)
+- [Meeting Minutes](weekly-reports/week3/week3-Meeting.md)
 - [Test Cases](test-cases.md)
+- [Diagrams](weekly-reports/week3/week3-Diagrams.md)
 ---
 
 ### Week 4 Sprint
 
 **Overview of Weekly Plan:**
 
-- Example 1
-- Example 2
-- Example 3
+- Animate player sprite
+- Finish level 2 development
+- Pick up scoring and hearts logic. 
 
 **Detailed Plan:**
 
