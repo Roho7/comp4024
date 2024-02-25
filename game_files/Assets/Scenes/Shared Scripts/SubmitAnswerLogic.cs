@@ -9,19 +9,23 @@ using UnityEngine;
 
 public class SubmitAnswerLogic : MonoBehaviour
 {
-    private string input;
+    public string answerInput;
+    public string question;
     public string correctAnswer;
     public GameObject obstacle;
 
-    public void start(){
-        if (correctAnswer == "" || correctAnswer == null){
+    public void start()
+    {
+        if (correctAnswer == "" || correctAnswer == null)
+        {
             Debug.Log("correct answer is not initialsied");
         }
     }
 
     public void SubmitAnswer(string input)
     {
-        if (input == ""){
+        if (input == "")
+        {
             Debug.Log("input answer is not invalid");
             return;
         }

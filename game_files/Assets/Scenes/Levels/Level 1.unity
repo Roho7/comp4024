@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 412338839}
   m_Layer: 0
   m_Name: enemy-1 (2)
-  m_TagString: Untagged
+  m_TagString: Killer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -195,14 +195,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.8, y: 1.8}
     newSize: {x: 1.8, y: 1.8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.8, y: 1.8}
   m_EdgeRadius: 0
 --- !u!50 &412338841
 Rigidbody2D:
@@ -292,7 +292,7 @@ Transform:
   m_GameObject: {fileID: 412338838}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.28, y: -2.3, z: -0.99}
+  m_LocalPosition: {x: -8.612, y: -1.6600001, z: -0.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -827,7 +827,7 @@ Transform:
   m_GameObject: {fileID: 661021673}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.0902843, y: -2.47459, z: -11}
+  m_LocalPosition: {x: -7.27052, y: -2.4752266, z: -11}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1430,7 +1430,7 @@ GameObject:
   - component: {fileID: 1027521874}
   m_Layer: 0
   m_Name: Points
-  m_TagString: Untagged
+  m_TagString: AnswerTracker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1447,6 +1447,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0090b6447ff5245f5ba0a5edeb3e59bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  answerInput: 
+  question: What is 2+2?
   correctAnswer: 4
   obstacle: {fileID: 929866408}
 --- !u!4 &1027521875
@@ -1562,7 +1564,7 @@ GameObject:
   - component: {fileID: 1199949613}
   - component: {fileID: 1199949617}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: TextObjects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1743,7 +1745,7 @@ Transform:
   m_GameObject: {fileID: 1319634301}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.225806, y: 0.03225803, z: -4.387096}
+  m_LocalPosition: {x: 7.225806, y: 2.4, z: -4.387096}
   m_LocalScale: {x: 3.225806, y: 3.225806, z: 3.225806}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1861,7 +1863,7 @@ Transform:
   m_GameObject: {fileID: 1505005630}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.61, y: -4.78, z: -1}
+  m_LocalPosition: {x: 4.44, y: -4.2, z: -1}
   m_LocalScale: {x: 4.89, y: 1.78, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2113,7 +2115,7 @@ GameObject:
   - component: {fileID: 1727901713}
   m_Layer: 0
   m_Name: enemy-1
-  m_TagString: Untagged
+  m_TagString: Killer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2195,7 +2197,7 @@ Transform:
   m_GameObject: {fileID: 1727901712}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.12, y: -6.38, z: -0.99}
+  m_LocalPosition: {x: -5.08, y: -6.05, z: -0.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2271,7 +2273,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.8, y: 1.8}
   m_EdgeRadius: 0
 --- !u!1 &1796510366
 GameObject:
@@ -2471,7 +2473,7 @@ Transform:
   m_GameObject: {fileID: 2058959965}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.4, y: 1.1399999, z: -0.2750651}
+  m_LocalPosition: {x: 6.4, y: 3.4, z: -0.2750651}
   m_LocalScale: {x: 2.8499997, y: 1.5799999, z: 5.3199997}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2635,9 +2637,9 @@ Transform:
   m_GameObject: {fileID: 2096799848}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.4, y: -6.8, z: 0}
+  m_LocalPosition: {x: -20.6, y: -5.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1671069569}
   - {fileID: 516183421}
@@ -2805,7 +2807,7 @@ GameObject:
   - component: {fileID: 2137264571}
   m_Layer: 0
   m_Name: enemy-1 (1)
-  m_TagString: Untagged
+  m_TagString: Killer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2869,7 +2871,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.8, y: 1.8}
   m_EdgeRadius: 0
 --- !u!50 &2137264573
 Rigidbody2D:
@@ -2959,7 +2961,7 @@ Transform:
   m_GameObject: {fileID: 2137264570}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.54, y: -0.17, z: -0.99}
+  m_LocalPosition: {x: -2.5, y: 0.89399993, z: -0.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3032,7 +3034,7 @@ PrefabInstance:
     - target: {fileID: 6456122384751744300, guid: 9ba824174dc094f87baa4d43444882b1, type: 3}
       propertyPath: questionText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 589059715}
     - target: {fileID: 6456122384751744300, guid: 9ba824174dc094f87baa4d43444882b1, type: 3}
       propertyPath: instructionText
       value: 
@@ -3075,14 +3077,12 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 661021676}
+  - {fileID: 1848880665}
   - {fileID: 6532091764521254525}
   - {fileID: 1727901715}
   - {fileID: 2137264575}
   - {fileID: 412338843}
   - {fileID: 1505005632}
   - {fileID: 1199949616}
-  - {fileID: 1483134027}
   - {fileID: 1027521875}
-  - {fileID: 1727901715}
-  - {fileID: 1319634303}
-  - {fileID: 1848880665}
+  - {fileID: 1483134027}
