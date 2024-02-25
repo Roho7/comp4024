@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 412338839}
   m_Layer: 0
   m_Name: enemy-1 (2)
-  m_TagString: Untagged
+  m_TagString: Killer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -195,14 +195,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.8, y: 1.8}
     newSize: {x: 1.8, y: 1.8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.8, y: 1.8}
   m_EdgeRadius: 0
 --- !u!50 &412338841
 Rigidbody2D:
@@ -292,7 +292,7 @@ Transform:
   m_GameObject: {fileID: 412338838}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.28, y: -2.3, z: -0.99}
+  m_LocalPosition: {x: -8.612, y: -1.6600001, z: -0.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1745,7 +1745,7 @@ Transform:
   m_GameObject: {fileID: 1319634301}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.225806, y: 0.03225803, z: -4.387096}
+  m_LocalPosition: {x: 7.225806, y: 2.4, z: -4.387096}
   m_LocalScale: {x: 3.225806, y: 3.225806, z: 3.225806}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2115,7 +2115,7 @@ GameObject:
   - component: {fileID: 1727901713}
   m_Layer: 0
   m_Name: enemy-1
-  m_TagString: Untagged
+  m_TagString: Killer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2197,7 +2197,7 @@ Transform:
   m_GameObject: {fileID: 1727901712}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.12, y: -6.38, z: -0.99}
+  m_LocalPosition: {x: -5.08, y: -6.05, z: -0.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2273,7 +2273,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.8, y: 1.8}
   m_EdgeRadius: 0
 --- !u!1 &1796510366
 GameObject:
@@ -2473,7 +2473,7 @@ Transform:
   m_GameObject: {fileID: 2058959965}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.4, y: 1.1399999, z: -0.2750651}
+  m_LocalPosition: {x: 6.4, y: 3.4, z: -0.2750651}
   m_LocalScale: {x: 2.8499997, y: 1.5799999, z: 5.3199997}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2637,9 +2637,9 @@ Transform:
   m_GameObject: {fileID: 2096799848}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.4, y: -6.8, z: 0}
+  m_LocalPosition: {x: -20.6, y: -5.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1671069569}
   - {fileID: 516183421}
@@ -2807,7 +2807,7 @@ GameObject:
   - component: {fileID: 2137264571}
   m_Layer: 0
   m_Name: enemy-1 (1)
-  m_TagString: Untagged
+  m_TagString: Killer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2871,7 +2871,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.8, y: 1.8}
   m_EdgeRadius: 0
 --- !u!50 &2137264573
 Rigidbody2D:
@@ -2961,7 +2961,7 @@ Transform:
   m_GameObject: {fileID: 2137264570}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.54, y: -0.17, z: -0.99}
+  m_LocalPosition: {x: -2.5, y: 0.89399993, z: -0.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

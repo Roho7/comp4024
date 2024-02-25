@@ -29,6 +29,12 @@ public class PlayerLogic : MonoBehaviour
             Debug.Log("No collision object for player jump");
         }
         hasJumped = false;
+        if (collision.gameObject.CompareTag("Killer"))
+        {
+            Debug.Log("Player has collided with killer");
+            Destroy(gameObject);
+
+        }
 
     }
     void Start()
@@ -89,4 +95,5 @@ public class PlayerLogic : MonoBehaviour
 
         }
     }
+
 }
