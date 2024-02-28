@@ -253,7 +253,7 @@ GameObject:
   - component: {fileID: 6956146300919485485}
   - component: {fileID: 2073473449908260142}
   m_Layer: 5
-  m_Name: SettingsBtns
+  m_Name: settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
