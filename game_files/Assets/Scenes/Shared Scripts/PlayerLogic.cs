@@ -12,11 +12,13 @@ public class PlayerLogic : MonoBehaviour
     public float moveSpeed = 10;
     private bool hasJumped = false;
     public GameObject textInputFieldHolder;
+    public Animator animator;
     public QuestionAreaLogic questionAreaLogic;
     public SubmitAnswerLogic submitAnswerLogic;
     public TMPro.TextMeshProUGUI questionText;
     public TMPro.TextMeshProUGUI instructionText;
     public bool hasFired = false;
+
     private string instruction = "";
 
 
@@ -31,8 +33,10 @@ public class PlayerLogic : MonoBehaviour
         hasJumped = false;
         if (collision.gameObject.CompareTag("Killer"))
         {
+            animator.SetTrigger("is_dead");
             Debug.Log("Player has collided with killer");
-            Destroy(gameObject);
+            player.bodyType = RigidbodyType2D.Static;
+            // Destroy(gameObject);
 
         }
 
@@ -47,6 +51,15 @@ public class PlayerLogic : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetAxis("Horizontal") != 0)
+        {
+            animator.SetBool("is_running", true);
+        }
+        else
+        {
+            animator.SetBool("is_running", false);
+        }
+
 
         {
             if (Input.GetKey(KeyCode.UpArrow) && !hasJumped)
@@ -59,6 +72,7 @@ public class PlayerLogic : MonoBehaviour
             }
             if (Input.GetKey(KeyCode.LeftArrow))
             {
+
                 player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
                 player.transform.localScale = new Vector3(-1, 1, 1);
                 Debug.Log("player moving left, x component of vector should be negative, is: " + player.transform.localScale);
