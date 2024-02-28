@@ -1,15 +1,13 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
 
 public class PlayerLogic : MonoBehaviour
 {
     [Header("Player Settings")]
     public Rigidbody2D player;
     [Range(0.01f, 0.1f)] public float speed = 0.01f;
-    [Range(1, 10)] public float jumpforce = 5;
+    [Range(1, 10)] public float jumpForce = 5;
     [Range(1, 10)] public float moveSpeed = 10;
 
     [Header("UI Elements")]
@@ -24,8 +22,6 @@ public class PlayerLogic : MonoBehaviour
 
     private string instruction = "";
 
-
-
     // If the player has already jumped, then they cannot jump again until they land
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -36,15 +32,37 @@ public class PlayerLogic : MonoBehaviour
         hasJumped = false;
         if (collision.gameObject.CompareTag("Killer"))
         {
-            animator.SetTrigger("is_dead");
-            Debug.Log("Player has collided with killer");
-            player.bodyType = RigidbodyType2D.Static;
-            // Destroy(gameObject);
+            HandlePlayerDeath();
+        }
+    }
 
+    void Start()
+    {
+        InitializeComponents();
+    }
+
+    void Update()
+    {
+        HandleRunningAnimation();
+
+        if (Input.GetKey(KeyCode.UpArrow) && !hasJumped)
+        {
+            HandleJump();
         }
 
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            HandleHorizontalMovement(-1);
+        }
+        else if (Input.GetKey(KeyCode.RightArrow))
+        {
+            HandleHorizontalMovement(1);
+        }
+
+        HandleQuestionArea();
     }
-    void Start()
+
+    void InitializeComponents()
     {
         questionAreaLogic = GameObject.FindGameObjectWithTag("QuestionArea").GetComponent<QuestionAreaLogic>();
         submitAnswerLogic = GameObject.FindGameObjectWithTag("AnswerTracker").GetComponent<SubmitAnswerLogic>();
@@ -52,64 +70,72 @@ public class PlayerLogic : MonoBehaviour
         instructionText = GameObject.FindGameObjectWithTag("InGameInstruction").GetComponent<TMPro.TextMeshProUGUI>();
     }
 
-    void Update()
+    void HandlePlayerDeath()
     {
-        if (Input.GetAxis("Horizontal") != 0)
+        animator.SetTrigger("is_dead");
+        Debug.Log("Player has collided with killer");
+        player.bodyType = RigidbodyType2D.Static;
+        // Destroy(gameObject);
+    }
+
+    void HandleRunningAnimation()
+    {
+        animator.SetBool("is_running", Input.GetAxis("Horizontal") != 0);
+    }
+
+    void HandleJump()
+    {
+        Debug.Log("Player Jumped should be False, is: " + hasJumped);
+        player.velocity = Vector3.up * jumpForce;
+        hasJumped = true;
+        Debug.Log("Player Jumped should be True, is: " + hasJumped);
+    }
+
+    void HandleHorizontalMovement(int direction)
+    {
+        player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
+        player.transform.localScale = new Vector3(direction, 1, 1);
+        Debug.Log($"Player moving {(direction == -1 ? "left" : "right")}, x component of vector should be {direction}, is: {player.transform.localScale}");
+    }
+
+    void HandleQuestionArea()
+    {
+        if (!questionAreaLogic.isInZone)
         {
-            animator.SetBool("is_running", true);
+            DisableTextInput();
         }
         else
         {
-            animator.SetBool("is_running", false);
-        }
-
-        {
-            if (Input.GetKey(KeyCode.UpArrow) && !hasJumped)
-            {
-                Debug.Log("Player Jumped should be False, is: " + hasJumped);
-                player.velocity = Vector3.up * jumpforce;
-                hasJumped = true;
-                Debug.Log("Player Jumped should be True, is: " + hasJumped);
-
-            }
-            if (Input.GetKey(KeyCode.LeftArrow))
-            {
-
-                player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
-                player.transform.localScale = new Vector3(-1, 1, 1);
-                Debug.Log("player moving left, x component of vector should be negative, is: " + player.transform.localScale);
-            }
-            if (Input.GetKey(KeyCode.RightArrow))
-            {
-                player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
-                player.transform.localScale = new Vector3(1, 1, 1);
-                Debug.Log("player moving left, x component of vector should be positive, is: " + player.transform.localScale);
-
-            }
-            if (!questionAreaLogic.isInZone)
-            {
-                if (textInputFieldHolder.activeInHierarchy)
-                {
-                    Debug.Log("textInputFieldHolder is True, should be False, Set to False");
-                }
-                textInputFieldHolder.SetActive(false);
-                questionText.text = "";
-                instruction = "";
-                instructionText.text = "";
-            }
-            if (questionAreaLogic.isInZone)
-            {
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    textInputFieldHolder.SetActive(true);
-                    Debug.Log("textInputFieldHolder should be " + Input.GetKeyDown(KeyCode.E) + ", is: " + textInputFieldHolder.activeInHierarchy);
-                }
-                questionText.text = submitAnswerLogic.question;
-                instruction = "Press 'E' to answer.";
-                instructionText.text = instruction;
-            }
-
+            EnableTextInput();
         }
     }
 
+    void DisableTextInput()
+    {
+        if (textInputFieldHolder.activeInHierarchy)
+        {
+            Debug.Log("textInputFieldHolder is True, should be False, Set to False");
+        }
+        textInputFieldHolder.SetActive(false);
+        ResetUIElements();
+    }
+
+    void EnableTextInput()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            textInputFieldHolder.SetActive(true);
+            Debug.Log($"textInputFieldHolder should be {Input.GetKeyDown(KeyCode.E)}, is: {textInputFieldHolder.activeInHierarchy}");
+        }
+        questionText.text = submitAnswerLogic.question;
+        instruction = "Press 'E' to answer.";
+        instructionText.text = instruction;
+    }
+
+    void ResetUIElements()
+    {
+        questionText.text = "";
+        instruction = "";
+        instructionText.text = "";
+    }
 }
