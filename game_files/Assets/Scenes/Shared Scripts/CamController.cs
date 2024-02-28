@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class CamController : MonoBehaviour
 {
-    public float moveSpeed;
+
+    [SerializeField] public float moveSpeed;
     [Range(0, 1)]
     public float smoothTime;
 

@@ -6,18 +6,21 @@ using UnityEngine.UI;
 
 public class PlayerLogic : MonoBehaviour
 {
+    [Header("Player Settings")]
     public Rigidbody2D player;
-    public float speed = 0.01f;
-    public float jumpforce = 5;
-    public float moveSpeed = 10;
-    private bool hasJumped = false;
+    [Range(0.01f, 0.1f)] public float speed = 0.01f;
+    [Range(1, 10)] public float jumpforce = 5;
+    [Range(1, 10)] public float moveSpeed = 10;
+
+    [Header("UI Elements")]
     public GameObject textInputFieldHolder;
-    public Animator animator;
-    public QuestionAreaLogic questionAreaLogic;
-    public SubmitAnswerLogic submitAnswerLogic;
-    public TMPro.TextMeshProUGUI questionText;
-    public TMPro.TextMeshProUGUI instructionText;
-    public bool hasFired = false;
+    [HideInInspector] public Animator animator;
+    [HideInInspector] public QuestionAreaLogic questionAreaLogic;
+    [HideInInspector] public SubmitAnswerLogic submitAnswerLogic;
+    [HideInInspector] public TMPro.TextMeshProUGUI questionText;
+    [HideInInspector] public TMPro.TextMeshProUGUI instructionText;
+    [HideInInspector] public bool hasFired = false;
+    [HideInInspector] private bool hasJumped = false;
 
     private string instruction = "";
 
@@ -59,7 +62,6 @@ public class PlayerLogic : MonoBehaviour
         {
             animator.SetBool("is_running", false);
         }
-
 
         {
             if (Input.GetKey(KeyCode.UpArrow) && !hasJumped)

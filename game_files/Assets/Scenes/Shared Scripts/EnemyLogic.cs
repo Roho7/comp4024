@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class EnemyLogic : MonoBehaviour
 {
-    public Rigidbody2D enemy;
-    public float speed = 0.1f;
-    public float jumpforce = 5;
-    public float moveInterval = 5f;
+    [Header("Enemy Settings")]
+    [HideInInspector] public Rigidbody2D enemy;
+    [Range(0.01f, 0.1f)] public float speed = 0.1f;
+    [Range(0, 10)] public float jumpforce = 5;
+    [Range(0f, 10f)] public float moveInterval = 5f;
     float moveTimer = 0;
 
     int direction = -1;
