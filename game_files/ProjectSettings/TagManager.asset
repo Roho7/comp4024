@@ -11,6 +11,8 @@ TagManager:
   - Bullet
   - AnswerTracker
   - Killer
+  - Background
+  - lvlButton
   layers:
   - Default
   - TransparentFX
