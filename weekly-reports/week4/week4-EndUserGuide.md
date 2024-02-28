@@ -6,7 +6,7 @@ Welcome to **Maths Quest**, a unique blend of 2D platforming and educational mat
 Getting Started
 ---------------
 
-1.  **Installation:** Download and install [Your Game Name] from the official website or your platform's digital store. Follow the on-screen instructions to complete the installation process.
+1.  **Installation:** Download and install **Maths Quest** from the GitHub. Follow the on-screen instructions to complete the installation process.
 
 2.  **Launching the Game:** Open Maths Quest by clicking on its icon on your desktop or from your applications folder. Wait for the game to load, and you'll be greeted with the main menu.
 
@@ -14,7 +14,7 @@ Navigating the Main Menu
 ------------------------
 
 -   **Start Game:** Begin your adventure through the math-filled world of Maths Quest.
--   **Options:** Adjust settings like sound, music volume, and display preferences.
+-   **Options:** Adjust settings and pick the level.
 -   **Exit:** Quit the game.
 
 Gameplay Overview
