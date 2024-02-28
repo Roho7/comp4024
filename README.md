@@ -126,6 +126,8 @@ leave you with a simple playable game at a minimum.
 
 - [Week Overview](weekly-reports/week4/week4-Overview.md)
 - [Meeting Minutes](weekly-reports/week4/week4-Meeting.md)
+- [Retrospective](weekly-reports/week4/week4-Retrospective.md)
+- [End User Guide](weekly-reports/week4/week4-EndUserGuide.md)
 
 ---
 
