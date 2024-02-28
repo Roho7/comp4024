@@ -83,7 +83,7 @@ public class PlayerLogic : MonoBehaviour
         animator.SetBool("is_running", Input.GetAxis("Horizontal") != 0);
     }
 
-    void HandleJump()
+    public void HandleJump()
     {
         Debug.Log("Player Jumped should be False, is: " + hasJumped);
         player.velocity = Vector3.up * jumpForce;
@@ -91,7 +91,7 @@ public class PlayerLogic : MonoBehaviour
         Debug.Log("Player Jumped should be True, is: " + hasJumped);
     }
 
-    void HandleHorizontalMovement(int direction)
+    public void HandleHorizontalMovement(int direction)
     {
         player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
         player.transform.localScale = new Vector3(direction, 1, 1);
