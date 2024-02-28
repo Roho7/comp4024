@@ -125,8 +125,8 @@ leave you with a simple playable game at a minimum.
 **Documentation:**
 
 - [Week Overview](weekly-reports/week4/week4-Overview.md)
-- [Meeting Minutes](weekly-reports/week4/week4-Meeting.md)
-- [Retrospective](weekly-reports/week4/week4-Retrospective.md)
+- [test-cases](./test-cases.md)
+- [Refactor](weekly-reports/week4/refactors.md)
 - [End User Guide](weekly-reports/week4/week4-EndUserGuide.md)
 
 ---

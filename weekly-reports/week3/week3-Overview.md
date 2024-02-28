@@ -37,7 +37,8 @@ A burn down chart for this week has been made.
 ### Sprint Backlog
 
 - Group discussions on the above.
-- Implementation of 'Heart' and 'Score' System
+- Player Animation.
+- begin unit testing.
 
 ### What Does This Mean For Next Week
 
