@@ -41,4 +41,18 @@ public class LevelSelector : MonoBehaviour
         level++;
     }
         
+
+    public int getNumberOfButtons()
+    {
+        int i = 0;
+        foreach (Transform child in LevelPanel.transform)
+        {
+            if (child.tag == "lvlButton")
+            {
+                i++;
+            }
+        }
+        Debug.Log("buttons:" + i);
+        return i;
+    }
 }

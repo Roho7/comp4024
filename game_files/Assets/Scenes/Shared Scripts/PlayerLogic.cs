@@ -51,25 +51,18 @@ public class PlayerLogic : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.UpArrow) && !hasJumped)
             {
-                Debug.Log("Player Jumped should be False, is: " + hasJumped);
-                player.velocity = Vector3.up * jumpforce;
-                hasJumped = true;
-                Debug.Log("Player Jumped should be True, is: " + hasJumped);
-
+                jump();
             }
             if (Input.GetKey(KeyCode.LeftArrow))
             {
-                player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
-                player.transform.localScale = new Vector3(-1, 1, 1);
-                Debug.Log("player moving left, x component of vector should be negative, is: " + player.transform.localScale);
+                goLeft();
             }
             if (Input.GetKey(KeyCode.RightArrow))
             {
-                player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
-                player.transform.localScale = new Vector3(1, 1, 1);
-                Debug.Log("player moving left, x component of vector should be positive, is: " + player.transform.localScale);
-
+                goRight();
             }
+
+
             if (!questionAreaLogic.isInZone)
             {
                 if (textInputFieldHolder.activeInHierarchy)
@@ -94,6 +87,25 @@ public class PlayerLogic : MonoBehaviour
             }
 
         }
+
+
     }
 
+    public void jump()
+    {
+        player.velocity = Vector3.up * jumpforce;
+        hasJumped = true;
+    }
+
+    public void goLeft()
+    {
+        player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
+        player.transform.localScale = new Vector3(-1, 1, 1);
+    }
+
+    public void goRight()
+    {
+        player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
+        player.transform.localScale = new Vector3(1, 1, 1);
+    }
 }
