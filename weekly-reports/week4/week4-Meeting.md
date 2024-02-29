@@ -35,8 +35,11 @@ Jingwen Xu [alyjx30@nottingham.ac.uk](mailto:alyjx30@nottingham.ac.uk)
 Patwitra Kultanarueangnon [alypk2@nottingham.ac.uk](mailto:alypk2@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
+   - I designed graphics for explode animation and other elements.
 2. What are you working on moving forward from this meeting?
+   - I will create sprite for player interaction area and a gantt chart.
 3. Any challenges to your progress?
+   - I was unfamiliar with Unity, so I asked my developer team to help explain it.
 
 **Meeting Notes:**
 
@@ -50,9 +53,9 @@ Attendance –
 
 | Name     | Attended? |
 | ---      | --- |
-| Hemal    |  Yes/No |
-| Rohosen  | Yes/No |
-| Leo      | Yes/No |
-| Wei-Che  | Yes/No |
-| Jingwen  | Yes/No |
-| Patwitra | Yes/No |
+| Hemal    | Yes |
+| Rohosen  | Yes |
+| Leo      | Yes |
+| Wei-Che  | Yes |
+| Jingwen  | Yes |
+| Patwitra | Yes |
