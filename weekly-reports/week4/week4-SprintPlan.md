@@ -45,9 +45,6 @@
 - Story Points for complexity assessment.
 - Time Estimates for task duration.
 
-## Additional Notes
-- [Any other relevant information or context]
-
 ## Resources
 - Access to game design documents.
 - Tools for task management and communication.
