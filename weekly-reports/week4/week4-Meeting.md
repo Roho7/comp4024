@@ -31,7 +31,7 @@ Jingwen Xu [alyjx30@nottingham.ac.uk](mailto:alyjx30@nottingham.ac.uk)
 1. What did you do from previous meeting?
    - I designed the game interface of level 3, including scene elements, items.
 2. What are you working on moving forward from this meeting?
-   = I modify my design of level 3.
+   - I modify my design of level 3.
 3. Any challenges to your progress?
    - There were something really same as level 2, so I make some new creation.
 
