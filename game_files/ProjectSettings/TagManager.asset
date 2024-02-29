@@ -13,6 +13,7 @@ TagManager:
   - Killer
   - Background
   - lvlButton
+  - Score
   layers:
   - Default
   - TransparentFX
