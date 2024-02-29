@@ -252,6 +252,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5889915125558036476, guid: c7320347f9cae4efd8a031f7688c6154, type: 3}
+      propertyPath: jumpForce
+      value: 6.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 5889915125558036476, guid: c7320347f9cae4efd8a031f7688c6154, type: 3}
       propertyPath: textInputFieldHolder
       value: 
       objectReference: {fileID: 935937524}
@@ -333,7 +337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 428879428}
-  speed: 0.9
+  speed: 0.1
   jumpforce: 5
   moveInterval: 2
 --- !u!61 &428879427
@@ -3360,7 +3364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 1819832771}
-  speed: 0.9
+  speed: 0.1
   jumpforce: 5
   moveInterval: 5
 --- !u!61 &1819832770
