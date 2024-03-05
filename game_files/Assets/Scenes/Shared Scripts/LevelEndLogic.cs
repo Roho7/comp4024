@@ -19,7 +19,7 @@ public class LevelEndLogic : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Level 2");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
