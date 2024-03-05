@@ -6,14 +6,19 @@ public class EnemyLogic : MonoBehaviour
 {
     [Header("Enemy Settings")]
     [HideInInspector] public Rigidbody2D enemy;
-    [Range(0.01f, 0.1f)] public float speed = 0.1f;
+    [Range(0.01f, 1.0f)] public float speed = 0.1f;
     [Range(0, 10)] public float jumpforce = 5;
     [Range(0f, 10f)] public float moveInterval = 5f;
+    [HideInInspector] public ScoreLogic scoreLogic;
     float moveTimer = 0;
 
     int direction = -1;
 
+    void Start()
+    {
+        scoreLogic = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreLogic>();
 
+    }
     void Update()
     {
         moveTimer += Time.deltaTime;
@@ -33,6 +38,7 @@ public class EnemyLogic : MonoBehaviour
         {
             Debug.Log("Collision with bullet");
             Destroy(gameObject);
+            scoreLogic.UpdateScore();
         }
     }
 }

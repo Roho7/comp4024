@@ -10,7 +10,7 @@ public class PlayerLogic : MonoBehaviour
     [Header("Player Settings")]
     public Rigidbody2D player;
     [Range(0.01f, 0.1f)] public float speed = 0.01f;
-    [Range(1, 10)] public float jumpForce = 5;
+    [Range(1, 50)] public float jumpForce = 5;
     [Range(1, 10)] public float moveSpeed = 10;
 
     [Header("UI Elements")]
