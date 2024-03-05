@@ -1,9 +1,12 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerLogic : MonoBehaviour
 {
+    public GameOverUI GameOverUI;
+
     [Header("Player Settings")]
     public Rigidbody2D player;
     [Range(0.01f, 0.1f)] public float speed = 0.01f;
@@ -19,6 +22,7 @@ public class PlayerLogic : MonoBehaviour
     [HideInInspector] public TMPro.TextMeshProUGUI instructionText;
     [HideInInspector] public bool hasFired = false;
     [HideInInspector] private bool hasJumped = false;
+
 
     private string instruction = "";
 
@@ -68,6 +72,9 @@ public class PlayerLogic : MonoBehaviour
         submitAnswerLogic = GameObject.FindGameObjectWithTag("AnswerTracker").GetComponent<SubmitAnswerLogic>();
         questionText = GameObject.FindGameObjectWithTag("Question").GetComponent<TMPro.TextMeshProUGUI>();
         instructionText = GameObject.FindGameObjectWithTag("InGameInstruction").GetComponent<TMPro.TextMeshProUGUI>();
+        
+
+
     }
 
     void HandlePlayerDeath()
@@ -76,6 +83,15 @@ public class PlayerLogic : MonoBehaviour
         Debug.Log("Player has collided with killer");
         player.bodyType = RigidbodyType2D.Static;
         // Destroy(gameObject);
+        gameOver();
+    }
+
+    void gameOver()
+    {
+        Time.timeScale = 0f;
+        GameOverUI.setup();
+
+
     }
 
     void HandleRunningAnimation()
