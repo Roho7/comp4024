@@ -17,8 +17,8 @@
       {
         "id": 3,
         "question": "An item is priced at £60 and is now on sale with a 20% discount. What is the discounted price? ",
-        "correctAnswer": "£12",
-        "hint": "10% of £60 is 60/10 = 6, Write answer £?.",
+        "correctAnswer": "12",
+        "hint": "10% of £60 is 60/10 = 6.",
         "difficulty": 1
       },
       {
@@ -45,8 +45,8 @@
       {
         "id": 7,
         "question": "If 5 books cost £20, how much would 8 books cost?",
-        "correctAnswer": "£32",
-        "hint": "Work out what 1 book costs 20/5. Write answer £?.",
+        "correctAnswer": "32",
+        "hint": "Work out what 1 book costs 20/5.",
         "difficulty": 1
       },
       {

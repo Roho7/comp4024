@@ -152,7 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2232102818462930987}
   speed: 0.001
-  jumpforce: 7
+  jumpForce: 7
   moveSpeed: 5
   textInputFieldHolder: {fileID: 0}
   animator: {fileID: 4533336476639653755}

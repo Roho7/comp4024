@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections.Generic;
-using Newtonsoft.Json;
 
 public class QuestionManager : MonoBehaviour
 {
@@ -12,9 +11,9 @@ public class QuestionManager : MonoBehaviour
         LoadQuestions();
     }
 
-    void LoadQuestions()
+    public void LoadQuestions()
     {
-        QuestionsContainer questionsContainer = JsonConvert.DeserializeObject<QuestionsContainer>(questionsJson.text);
+        QuestionsContainer questionsContainer = JsonUtility.FromJson<QuestionsContainer>(questionsJson.text);
         allQuestions = questionsContainer.questions;
     }
 

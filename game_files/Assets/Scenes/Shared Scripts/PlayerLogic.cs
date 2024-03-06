@@ -12,6 +12,7 @@ public class PlayerLogic : MonoBehaviour
 
     [Header("UI Elements")]
     public GameObject textInputFieldHolder;
+    public GameObject fence;
     [HideInInspector] public Animator animator;
     [HideInInspector] public QuestionAreaLogic questionAreaLogic;
     [HideInInspector] public SubmitAnswerLogic submitAnswerLogic;
@@ -21,6 +22,12 @@ public class PlayerLogic : MonoBehaviour
     [HideInInspector] private bool hasJumped = false;
 
     private string instruction = "";
+    private QuestionManager questionObject;
+    QuestionManager.Question questionClass;
+    bool questionAsk = false;
+    bool checkText = true;
+
+    
 
     // If the player has already jumped, then they cannot jump again until they land
     void OnCollisionEnter2D(Collision2D collision)
@@ -103,6 +110,8 @@ public class PlayerLogic : MonoBehaviour
         if (!questionAreaLogic.isInZone)
         {
             DisableTextInput();
+            questionAsk = false;
+            checkText = false;
         }
         else
         {
@@ -122,14 +131,34 @@ public class PlayerLogic : MonoBehaviour
 
     void EnableTextInput()
     {
+        questionObject = GameObject.Find ("QuestionArea").GetComponent<QuestionManager>();
+        questionObject.LoadQuestions();
+        if (questionAsk == false)
+        {
+            questionClass = (questionObject.GetRandomQuestion(1));
+            questionText.text = questionClass.question;
+            var questionID = questionClass.id;
+            questionAsk = true;
+        }
+        instruction = "Press 'E' to answer.";
+        instructionText.text = instruction;
+        
         if (Input.GetKeyDown(KeyCode.E))
         {
             textInputFieldHolder.SetActive(true);
-            Debug.Log($"textInputFieldHolder should be {Input.GetKeyDown(KeyCode.E)}, is: {textInputFieldHolder.activeInHierarchy}");
         }
-        questionText.text = submitAnswerLogic.question;
-        instruction = "Press 'E' to answer.";
-        instructionText.text = instruction;
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            var text = textInputFieldHolder.GetComponentInChildren<InputField>().text;
+            Debug.Log($"text: {text}, answer: {questionClass.correctAnswer},");
+            if (text == questionClass.correctAnswer)
+            {
+                Debug.Log("Inputed correct answer.");
+                fence.SetActive(false);
+                checkText = false;
+            }
+        }
+        // Debug.Log($"textInputFieldHolder should be {Input.GetKeyDown(KeyCode.E)}, is: {textInputFieldHolder.activeInHierarchy}");
     }
 
     void ResetUIElements()
