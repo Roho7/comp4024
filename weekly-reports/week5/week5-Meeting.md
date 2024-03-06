@@ -5,8 +5,11 @@
 Hemal Panchal [psyhp2@nottingham.ac.uk](mailto:psyhp2@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
-2. What are you working on moving forward from this meeting?
-3. Any challenges to your progress?
+- Finnished end user guide, fixed and merged dynamic loading questions to main game 
+3. What are you working on moving forward from this meeting?
+- Fix the any bugs and clean up for final days of the final sprint
+4. Any challenges to your progress?
+- Had to change to the unity json package rather than the one I was using moreover had some issues with merging with main which Roho helped with
 
 Rohosen Bhattacharya [psxrb10@nottingham.ac.uk](mailto:psxrb10@nottingham.ac.uk)
 
