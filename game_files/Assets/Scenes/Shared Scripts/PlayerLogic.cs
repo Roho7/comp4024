@@ -15,6 +15,7 @@ public class PlayerLogic : MonoBehaviour
 
     [Header("UI Elements")]
     public GameObject textInputFieldHolder;
+    public GameObject fence;
     [HideInInspector] public Animator animator;
     [HideInInspector] public QuestionAreaLogic questionAreaLogic;
     [HideInInspector] public SubmitAnswerLogic submitAnswerLogic;
@@ -25,6 +26,12 @@ public class PlayerLogic : MonoBehaviour
 
 
     private string instruction = "";
+    private QuestionManager questionObject;
+    QuestionManager.Question questionClass;
+    bool questionAsk = false;
+    bool checkText = true;
+
+
 
     // If the player has already jumped, then they cannot jump again until they land
     void OnCollisionEnter2D(Collision2D collision)
@@ -72,7 +79,7 @@ public class PlayerLogic : MonoBehaviour
         submitAnswerLogic = GameObject.FindGameObjectWithTag("AnswerTracker").GetComponent<SubmitAnswerLogic>();
         questionText = GameObject.FindGameObjectWithTag("Question").GetComponent<TMPro.TextMeshProUGUI>();
         instructionText = GameObject.FindGameObjectWithTag("InGameInstruction").GetComponent<TMPro.TextMeshProUGUI>();
-        
+
 
 
     }
@@ -118,6 +125,8 @@ public class PlayerLogic : MonoBehaviour
     {
         if (!questionAreaLogic.isInZone)
         {
+            questionAsk = false;
+            checkText = false;
             DisableTextInput();
         }
         else
@@ -138,14 +147,37 @@ public class PlayerLogic : MonoBehaviour
 
     void EnableTextInput()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        questionObject = GameObject.Find("QuestionArea").GetComponent<QuestionManager>();
+        questionObject.LoadQuestions();
+        if (questionAsk == false)
         {
-            textInputFieldHolder.SetActive(true);
-            Debug.Log($"textInputFieldHolder should be {Input.GetKeyDown(KeyCode.E)}, is: {textInputFieldHolder.activeInHierarchy}");
+            questionClass = (questionObject.GetRandomQuestion(1));
+            questionText.text = questionClass.question;
+            var questionID = questionClass.id;
+            questionAsk = true;
         }
-        questionText.text = submitAnswerLogic.question;
         instruction = "Press 'E' to answer.";
         instructionText.text = instruction;
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+
+            textInputFieldHolder.SetActive(true);
+
+        }
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            var text = textInputFieldHolder.GetComponentInChildren<InputField>().text;
+            Debug.Log($"text: {text}, answer: {questionClass.correctAnswer},");
+            if (text == questionClass.correctAnswer)
+            {
+                Debug.Log("Inputed correct answer.");
+                DisableTextInput();
+                fence.SetActive(false);
+                checkText = false;
+            }
+        }
+        // Debug.Log($"textInputFieldHolder should be {Input.GetKeyDown(KeyCode.E)}, is: {textInputFieldHolder.activeInHierarchy}");
     }
 
     void ResetUIElements()

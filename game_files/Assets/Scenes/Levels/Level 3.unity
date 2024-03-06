@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 10377304}
   - component: {fileID: 10377303}
   - component: {fileID: 10377302}
+  - component: {fileID: 10377305}
   m_Layer: 0
   m_Name: QuestionArea
   m_TagString: QuestionArea
@@ -214,6 +215,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &10377305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10377301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d05dde3436484ceea6f7deec06d57ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionsJson: {fileID: 4900000, guid: dc627e60af8d9455881e9a374650d7ba, type: 3}
 --- !u!1 &130967147
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,7 +406,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 240}
-  m_SizeDelta: {x: 349, y: 30}
+  m_SizeDelta: {x: 818.3, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &217261539
 MonoBehaviour:
@@ -414,7 +428,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: feiaohfeoaeoieiuaofheoa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1c7f09ca53d831549ab7d221fcc27355, type: 2}
   m_sharedMaterial: {fileID: -3434410590503618703, guid: 1c7f09ca53d831549ab7d221fcc27355, type: 2}
@@ -441,7 +455,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 50.35
   m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3686,6 +3700,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5889915125558036476, guid: c7320347f9cae4efd8a031f7688c6154, type: 3}
+      propertyPath: fence
+      value: 
+      objectReference: {fileID: 1080778046}
     - target: {fileID: 5889915125558036476, guid: c7320347f9cae4efd8a031f7688c6154, type: 3}
       propertyPath: textInputFieldHolder
       value: 
