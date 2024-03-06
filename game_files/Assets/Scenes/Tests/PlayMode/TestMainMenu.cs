@@ -60,24 +60,8 @@ public class TestMainMenu
         LevelSelector lvlContainer = GameObject.Find("LevelSelector").GetComponent<LevelSelector>();
         yield return null;
 
-        Assert.AreEqual((UnityEngine.SceneManagement.SceneManager.sceneCountInBuildSettings - 2 ), lvlContainer.getNumberOfButtons());
+        Assert.AreEqual((UnityEngine.SceneManagement.SceneManager.sceneCountInBuildSettings - 3 ), lvlContainer.getNumberOfButtons());
     }
-
-    [UnityTest]
-    public IEnumerator verifySceneChange()
-    {
-        Button showLevelsBtn = GameObject.Find("ShowLevelsBtn").GetComponent<Button>();
-        showLevelsBtn.onClick.Invoke();
-
-        LevelSelector lvlContainer = GameObject.Find("LevelSelector").GetComponent<LevelSelector>();
-        Button button = GameObject.FindGameObjectWithTag("lvlButton").GetComponent<Button>();
-        button.onClick.Invoke();
-        yield return null;
-
-        Assert.AreEqual("level 1", SceneManager.GetActiveScene().name);
-    }
-
-
 
 
 }

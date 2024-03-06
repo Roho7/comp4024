@@ -12,7 +12,7 @@ public class EnemyLogic : MonoBehaviour
     [HideInInspector] public ScoreLogic scoreLogic;
     float moveTimer = 0;
 
-    int direction = -1;
+    public int direction = -1;
 
     void Start()
     {
@@ -37,8 +37,8 @@ public class EnemyLogic : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             Debug.Log("Collision with bullet");
-            Destroy(gameObject);
             scoreLogic.UpdateScore();
+            Destroy(gameObject);
         }
     }
 }

@@ -8,17 +8,21 @@ public class GunLogic : MonoBehaviour
     public float bulletSpeed;
     public Transform player;
 
-    private float fireCooldown = 1f;
-    private float lastFireTime;
+    public float fireCooldown = 1f;
+    public float lastFireTime = 0f;
 
     void Update()
     {
-        HandleShooting();
+        if (Input.GetKey(KeyCode.Space)){
+            HandleShooting();
+        }
+       
     }
 
-    void HandleShooting()
+    public void HandleShooting()
     {
-        if (Input.GetKey(KeyCode.Space) && Time.time - lastFireTime >= fireCooldown)
+        
+        if (Time.time - lastFireTime >= fireCooldown)
         {
             lastFireTime = Time.time;
             Fire();
