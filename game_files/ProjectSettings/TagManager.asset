@@ -11,6 +11,11 @@ TagManager:
   - Bullet
   - AnswerTracker
   - Killer
+  - Background
+  - lvlButton
+  - GameOverUI
+  - Score
+  - LevelEnd
   layers:
   - Default
   - TransparentFX

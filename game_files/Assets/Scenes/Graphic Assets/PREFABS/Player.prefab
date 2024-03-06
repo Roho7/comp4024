@@ -150,9 +150,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be5e27e0cd7344825805a0fc440a9ed8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameOverUI: {fileID: 566938823549337125, guid: 24b182dd4c5c9e94290bbacf75b85501, type: 3}
   player: {fileID: 2232102818462930987}
   speed: 0.001
-  jumpForce: 7
+  jumpForce: 15
   moveSpeed: 5
   textInputFieldHolder: {fileID: 0}
   animator: {fileID: 4533336476639653755}
@@ -221,7 +222,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2

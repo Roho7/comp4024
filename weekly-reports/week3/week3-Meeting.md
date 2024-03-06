@@ -1,5 +1,7 @@
 **Meeting Template: (Example Title: Sprint 1 – Meeting)**
 
+<img width="815" alt="Screenshot 2567-03-06 at 13 05 03" src="https://github.com/Roho7/comp4024/assets/158864988/b642aca9-0e55-48d5-875d-c32b963d2546">
+
 **Pre-Meeting Review:**
 
 Hemal Panchal [psyhp2@nottingham.ac.uk](mailto:psyhp2@nottingham.ac.uk)

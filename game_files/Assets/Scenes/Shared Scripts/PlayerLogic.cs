@@ -1,13 +1,16 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerLogic : MonoBehaviour
 {
+    public GameOverUI GameOverUI;
+
     [Header("Player Settings")]
     public Rigidbody2D player;
     [Range(0.01f, 0.1f)] public float speed = 0.01f;
-    [Range(1, 10)] public float jumpForce = 5;
+    [Range(1, 50)] public float jumpForce = 5;
     [Range(1, 10)] public float moveSpeed = 10;
 
     [Header("UI Elements")]
@@ -20,6 +23,7 @@ public class PlayerLogic : MonoBehaviour
     [HideInInspector] public TMPro.TextMeshProUGUI instructionText;
     [HideInInspector] public bool hasFired = false;
     [HideInInspector] private bool hasJumped = false;
+
 
     private string instruction = "";
     private QuestionManager questionObject;
@@ -75,6 +79,9 @@ public class PlayerLogic : MonoBehaviour
         submitAnswerLogic = GameObject.FindGameObjectWithTag("AnswerTracker").GetComponent<SubmitAnswerLogic>();
         questionText = GameObject.FindGameObjectWithTag("Question").GetComponent<TMPro.TextMeshProUGUI>();
         instructionText = GameObject.FindGameObjectWithTag("InGameInstruction").GetComponent<TMPro.TextMeshProUGUI>();
+        
+
+
     }
 
     void HandlePlayerDeath()
@@ -83,6 +90,15 @@ public class PlayerLogic : MonoBehaviour
         Debug.Log("Player has collided with killer");
         player.bodyType = RigidbodyType2D.Static;
         // Destroy(gameObject);
+        gameOver();
+    }
+
+    void gameOver()
+    {
+        Time.timeScale = 0f;
+        GameOverUI.setup();
+
+
     }
 
     void HandleRunningAnimation()
@@ -90,7 +106,7 @@ public class PlayerLogic : MonoBehaviour
         animator.SetBool("is_running", Input.GetAxis("Horizontal") != 0);
     }
 
-    void HandleJump()
+    public void HandleJump()
     {
         Debug.Log("Player Jumped should be False, is: " + hasJumped);
         player.velocity = Vector3.up * jumpForce;
@@ -98,7 +114,7 @@ public class PlayerLogic : MonoBehaviour
         Debug.Log("Player Jumped should be True, is: " + hasJumped);
     }
 
-    void HandleHorizontalMovement(int direction)
+    public void HandleHorizontalMovement(int direction)
     {
         player.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, player.velocity.y);
         player.transform.localScale = new Vector3(direction, 1, 1);
