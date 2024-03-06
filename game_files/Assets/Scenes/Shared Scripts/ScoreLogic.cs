@@ -16,4 +16,15 @@ public class ScoreLogic : MonoBehaviour
         score += 1;
         ScoreText.text = score.ToString();
     }
+    public void UpdateScoreBy(int i)
+    {
+        if (i < 0 || score == int.MaxValue)
+        {
+            return;
+        }
+
+        score += i;
+        ScoreText.text = score.ToString();
+    }
+
 }
