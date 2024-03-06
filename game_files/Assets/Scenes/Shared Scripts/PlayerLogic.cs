@@ -31,7 +31,7 @@ public class PlayerLogic : MonoBehaviour
     bool questionAsk = false;
     bool checkText = true;
 
-    
+
 
     // If the player has already jumped, then they cannot jump again until they land
     void OnCollisionEnter2D(Collision2D collision)
@@ -79,7 +79,7 @@ public class PlayerLogic : MonoBehaviour
         submitAnswerLogic = GameObject.FindGameObjectWithTag("AnswerTracker").GetComponent<SubmitAnswerLogic>();
         questionText = GameObject.FindGameObjectWithTag("Question").GetComponent<TMPro.TextMeshProUGUI>();
         instructionText = GameObject.FindGameObjectWithTag("InGameInstruction").GetComponent<TMPro.TextMeshProUGUI>();
-        
+
 
 
     }
@@ -125,9 +125,9 @@ public class PlayerLogic : MonoBehaviour
     {
         if (!questionAreaLogic.isInZone)
         {
-            DisableTextInput();
             questionAsk = false;
             checkText = false;
+            DisableTextInput();
         }
         else
         {
@@ -147,7 +147,7 @@ public class PlayerLogic : MonoBehaviour
 
     void EnableTextInput()
     {
-        questionObject = GameObject.Find ("QuestionArea").GetComponent<QuestionManager>();
+        questionObject = GameObject.Find("QuestionArea").GetComponent<QuestionManager>();
         questionObject.LoadQuestions();
         if (questionAsk == false)
         {
@@ -158,10 +158,12 @@ public class PlayerLogic : MonoBehaviour
         }
         instruction = "Press 'E' to answer.";
         instructionText.text = instruction;
-        
+
         if (Input.GetKeyDown(KeyCode.E))
         {
+
             textInputFieldHolder.SetActive(true);
+
         }
         if (Input.GetKeyDown(KeyCode.Return))
         {
@@ -170,6 +172,7 @@ public class PlayerLogic : MonoBehaviour
             if (text == questionClass.correctAnswer)
             {
                 Debug.Log("Inputed correct answer.");
+                DisableTextInput();
                 fence.SetActive(false);
                 checkText = false;
             }
