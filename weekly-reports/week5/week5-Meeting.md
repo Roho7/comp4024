@@ -1,4 +1,4 @@
-**Meeting Template: (Example Title: Sprint 1 – Meeting)**
+**Meeting Template: Week 5**
 
 **Pre-Meeting Review:**
 
@@ -35,8 +35,11 @@ Jingwen Xu [alyjx30@nottingham.ac.uk](mailto:alyjx30@nottingham.ac.uk)
 Patwitra Kultanarueangnon [alypk2@nottingham.ac.uk](mailto:alypk2@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
+   - I created sprite for player interaction area and make a draft for our group reflection report.
 2. What are you working on moving forward from this meeting?
+   - I will create survey for beta testing and update the Github content.
 3. Any challenges to your progress?
+   - Not much, I had a slight issue with time management. However, I can still get all the work done on time.
 
 **Meeting Notes:**
 
@@ -44,15 +47,16 @@ Three or four bullet points outlining what we talked about in the meeting so tha
 
 **Meeting Stats:**
 
-Meeting Length - in hours and minutes
+Meeting Length - Monday : approximatley 30 minutes
+               - Wednesday : 1 hour and 40 minutes 
 
 Attendance –
 
 | Name     | Attended? |
 | ---      | --- |
-| Hemal    |  Yes/No |
-| Rohosen  | Yes/No |
-| Leo      | Yes/No |
-| Wei-Che  | Yes/No |
-| Jingwen  | Yes/No |
-| Patwitra | Yes/No |
+| Hemal    | Yes |
+| Rohosen  | Yes |
+| Leo      | Yes |
+| Wei-Che  | Yes |
+| Jingwen  | Yes |
+| Patwitra | Yes |
