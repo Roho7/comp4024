@@ -79,9 +79,6 @@ public class PlayerLogic : MonoBehaviour
         submitAnswerLogic = GameObject.FindGameObjectWithTag("AnswerTracker").GetComponent<SubmitAnswerLogic>();
         questionText = GameObject.FindGameObjectWithTag("Question").GetComponent<TMPro.TextMeshProUGUI>();
         instructionText = GameObject.FindGameObjectWithTag("InGameInstruction").GetComponent<TMPro.TextMeshProUGUI>();
-
-
-
     }
 
     void HandlePlayerDeath()
@@ -135,6 +132,12 @@ public class PlayerLogic : MonoBehaviour
         }
     }
 
+    void ResetUIElements()
+    {
+        instructionText.text = "";
+        questionText.text = "";
+    }
+
     void DisableTextInput()
     {
         if (textInputFieldHolder.activeInHierarchy)
@@ -163,7 +166,8 @@ public class PlayerLogic : MonoBehaviour
         {
 
             textInputFieldHolder.SetActive(true);
-
+            textInputFieldHolder.GetComponentInChildren<InputField>().ActivateInputField();
+            textInputFieldHolder.GetComponentInChildren<InputField>().Select();
         }
         if (Input.GetKeyDown(KeyCode.Return))
         {
@@ -180,10 +184,5 @@ public class PlayerLogic : MonoBehaviour
         // Debug.Log($"textInputFieldHolder should be {Input.GetKeyDown(KeyCode.E)}, is: {textInputFieldHolder.activeInHierarchy}");
     }
 
-    void ResetUIElements()
-    {
-        questionText.text = "";
-        instruction = "";
-        instructionText.text = "";
-    }
+
 }
