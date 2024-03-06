@@ -148,6 +148,7 @@ leave you with a simple playable game at a minimum.
 
 - [Week Overview](weekly-reports/week5/week5-Overview.md)
 - [Meeting Minutes](weekly-reports/week5/week5-Meeting.md)
+- [Deployment Diagram](/weekly-reports/week5/week5-DeploymentDiagram.md)
 
 # Git Usage
 
