@@ -1185,7 +1185,7 @@ Transform:
   m_GameObject: {fileID: 661021673}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.595924, y: -2.4869633, z: -13.39}
+  m_LocalPosition: {x: -8.137559, y: -2.4782865, z: -13.39}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2588,10 +2588,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1361565830874583207, guid: 24b182dd4c5c9e94290bbacf75b85501, type: 3}
       propertyPath: m_Name
-      value: GameOverUI
-      objectReference: {fileID: 0}
-    - target: {fileID: 1361565830874583207, guid: 24b182dd4c5c9e94290bbacf75b85501, type: 3}
-      propertyPath: m_TagString
       value: GameOverUI
       objectReference: {fileID: 0}
     - target: {fileID: 7448132543698359736, guid: 24b182dd4c5c9e94290bbacf75b85501, type: 3}
