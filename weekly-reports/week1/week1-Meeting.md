@@ -1,4 +1,5 @@
-**Meeting Template: (Example Title: Sprint 1 – Meeting)**
+**Meeting**
+<img width="764" alt="Screenshot 2567-03-06 at 12 49 32" src="https://github.com/Roho7/comp4024/assets/158864988/c4d32ed2-df6b-4ab8-8fdc-60c1ff0caee8">
 
 **Pre-Meeting Review:**
 
