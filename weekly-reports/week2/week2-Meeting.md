@@ -1,6 +1,5 @@
 **Meeting Template: Week 2 - Monday Meeting**
 
-<img width="813" alt="Screenshot 2567-03-06 at 13 04 51" src="https://github.com/Roho7/comp4024/assets/158864988/65c1dc70-f670-4904-ace0-f9b9533d6081">
 
 **Meeting Notes:**
 
