@@ -5,8 +5,11 @@
 Hemal Panchal [psyhp2@nottingham.ac.uk](mailto:psyhp2@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
-2. What are you working on moving forward from this meeting?
-3. Any challenges to your progress?
+- Made a start on the end user guide, made a questions json and started dynamic question management logic
+3. What are you working on moving forward from this meeting?
+- Finish end user guide and dynamic question management logic
+4. Any challenges to your progress?
+- Lots of errors with compatibility of converting jsons with unity editor working on a fix
 
 Rohosen Bhattacharya [psxrb10@nottingham.ac.uk](mailto:psxrb10@nottingham.ac.uk)
 
