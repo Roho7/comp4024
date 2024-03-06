@@ -20,8 +20,11 @@ Rohosen Bhattacharya [psxrb10@nottingham.ac.uk](mailto:psxrb10@nottingham.ac.uk)
 Leo Meyler [psylm10@nottingham.ac.uk](mailto:psylm10@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
+- Created the Game Over screen functionality
 2. What are you working on moving forward from this meeting?
+- adding more tests, helping format the final report.
 3. Any challenges to your progress?
+- Slight time pressure.
 
 Wei-Che Lin [alywl40@nottingham.ac.uk](mailto:alywl40@nottingham.ac.uk)
 
