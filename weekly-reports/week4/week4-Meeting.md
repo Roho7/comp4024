@@ -20,8 +20,11 @@ Rohosen Bhattacharya [psxrb10@nottingham.ac.uk](mailto:psxrb10@nottingham.ac.uk)
 Leo Meyler [psylm10@nottingham.ac.uk](mailto:psylm10@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
-2. What are you working on moving forward from this meeting?
-3. Any challenges to your progress?
+   - Setup unit testing in unity as opoosed to using Debug.Logs.
+3. What are you working on moving forward from this meeting?
+   - adding more tests, and assisting with dyna,ically loading questions.
+5. Any challenges to your progress?
+   - need to review knowledege on uit testing in unity and using JSON in unity.
 
 Wei-Che Lin [alywl40@nottingham.ac.uk](mailto:alywl40@nottingham.ac.uk)
 
