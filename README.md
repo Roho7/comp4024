@@ -33,6 +33,15 @@ leave you with a simple playable game at a minimum.
 | Hemal    | psyhp2@nottingham.ac.uk  | Documentaion + Development    |
 | Rohosen  | psxrb10@nottingham.ac.uk | Development + testing         |
 
+# Game Documents
+- [Minimum Viable Product](weekly-reports/week2/week2-MVP.md)
+- [Game Requirements](weekly-reports/week1/week1-Requirements.md)
+- [Chosen Game Idea](weekly-reports/week1/week1-FinalGameIdea.md)
+- [Test Cases](test-cases.md)
+- [End User Guide - Final](weekly-reports/week5/week5-EndUserGuideFinal.md)
+- [Project Post-Mortem](weekly-reports/week5/week5-ProjectPostMortem.md)
+
+
 ## Weekly Sprints
 
 ### Trello Boards (Join the weekly Trello Boards through these links)
@@ -129,7 +138,7 @@ leave you with a simple playable game at a minimum.
 
 - Animate player sprite
 - Finish level 2 development
-- Pick up scoring and hearts logic. 
+- Pick up scoring logic. 
 
 **Detailed Plan:**
 
@@ -150,9 +159,10 @@ leave you with a simple playable game at a minimum.
 
 **Overview of Weekly Plan:**
 
-- Example 1
-- Example 2
-- Example 3
+- Finish level 3
+- Finish scoring and player respawn
+- Game over screen
+- Add sound effects
 
 **Detailed Plan:**
 
