@@ -14,8 +14,11 @@ Hemal Panchal [psyhp2@nottingham.ac.uk](mailto:psyhp2@nottingham.ac.uk)
 Rohosen Bhattacharya [psxrb10@nottingham.ac.uk](mailto:psxrb10@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
-2. What are you working on moving forward from this meeting?
-3. Any challenges to your progress?
+   - Added level two and animated player death and movement successfully. 
+3. What are you working on moving forward from this meeting?
+   - Adding the final level and adding sound effects and background music.
+5. Any challenges to your progress?
+   - Adding music is posing a challenge as the music hinders player death game reload. 
 
 Leo Meyler [psylm10@nottingham.ac.uk](mailto:psylm10@nottingham.ac.uk)
 
