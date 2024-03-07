@@ -129,7 +129,7 @@ leave you with a simple playable game at a minimum.
 - [Meeting Minutes](./weekly-reports/week4/week4-Meeting.md)
 - [test-cases](./test-cases.md)
 - [Refactor](weekly-reports/week4/refactors.md)
-- [End User Guide](weekly-reports/week4/week4-EndUserGuide.md)
+- [End User Guide - Initial](weekly-reports/week4/week4-EndUserGuide.md)
 
 ---
 
@@ -151,6 +151,7 @@ leave you with a simple playable game at a minimum.
 - [Meeting Minutes](weekly-reports/week5/week5-Meeting.md)
 - [Survey Template](./weekly-reports/week5/week5-Survey%20for%20beta%20testing.md)
 - [Deployment Diagram](/weekly-reports/week5/week5-DeploymentDiagram.md)
+- [End User Guide - Final](weekly-reports/week5/week5-EndUserGuideFinal.md)
 
 # Git Usage
 
