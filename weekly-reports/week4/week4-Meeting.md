@@ -14,8 +14,11 @@ Hemal Panchal [psyhp2@nottingham.ac.uk](mailto:psyhp2@nottingham.ac.uk)
 Rohosen Bhattacharya [psxrb10@nottingham.ac.uk](mailto:psxrb10@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
-2. What are you working on moving forward from this meeting?
-3. Any challenges to your progress?
+   - Added camera confines successfully. The camera now tracks the player. The player can also fire now and kill enemies.
+3. What are you working on moving forward from this meeting?
+   - Working on player animation, player 2 development.
+5. Any challenges to your progress?
+   - It was difficult fixing the camera movement as it required using a different plugin. The player fire and enemy damage also bloated up the logic and needs to be organized and refactored. 
 
 Leo Meyler [psylm10@nottingham.ac.uk](mailto:psylm10@nottingham.ac.uk)
 
