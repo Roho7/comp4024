@@ -1,4 +1,4 @@
-End User Guide for **Maths Quest** - Inital
+End User Guide for **Maths Quest** - Final
 ===================================
 
 Welcome to **Maths Quest**, a unique blend of 2D platforming and educational math challenges designed to test your reflexes and sharpen your mathematical skills. This guide will help you get started, navigate through levels, and make the most of your gaming experience.

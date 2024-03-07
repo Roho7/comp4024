@@ -152,6 +152,8 @@ leave you with a simple playable game at a minimum.
 - [Survey Template](./weekly-reports/week5/week5-Survey%20for%20beta%20testing.md)
 - [Deployment Diagram](/weekly-reports/week5/week5-DeploymentDiagram.md)
 - [End User Guide - Final](weekly-reports/week5/week5-EndUserGuideFinal.md)
+- [Project Post-Mortem](weekly-reports/week5/week5-ProjectPostMortem.md)
+- [Evidence of Paired Programming](weekly-reports/week5/week5-EvidencePairedProgramming.md)
 
 # Git Usage
 
