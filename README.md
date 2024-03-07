@@ -35,6 +35,19 @@ leave you with a simple playable game at a minimum.
 
 ## Weekly Sprints
 
+### Trello Boards (Join the weekly Trello Boards through these links)
+- **Week 1**
+- https://trello.com/invite/b/bZQf9yUQ/ATTI54a5c727e44bfe61238ea5a5270d03f8856EB0F4/week-1-sprint
+- **Week 2**
+- https://trello.com/invite/b/UZiKe2IC/ATTIfb99213065bbd56e3daf594d4689be14B7BF6A74/week-2-sprint
+- **Week 3**
+- https://trello.com/invite/b/IBlQXMcl/ATTI86db61ff5f380256f534a6f6cfe19b17FD09C114/week-3-sprint
+- **Week 4**
+- https://trello.com/invite/b/1XD0Z6SA/ATTIa695f265ea6c5fd2bc124fc251bb467d00157C64/week-4-sprint
+- **Week 5**
+- https://trello.com/invite/b/7tSzK0cK/ATTI70cfbfc57843afb98e46066c5929efe10B960CA5/week-5-sprint-final
+
+
 ### Week 1 Sprint
 
 **Overview of Weekly Plan:**
