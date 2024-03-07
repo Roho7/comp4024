@@ -82,8 +82,7 @@ public class PlayerLogic : MonoBehaviour
         audio = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioScript>();
     }
 
-
-    void HandlePlayerDeath()
+    public void HandlePlayerDeath()
     {
         animator.SetTrigger("is_dead");
         audio.PlaySFX(audio.fireSound);
@@ -94,7 +93,7 @@ public class PlayerLogic : MonoBehaviour
         gameOver();
     }
 
-    void gameOver()
+    public void gameOver()
     {
         // Time.timeScale = 0f;
         GameOverUI.setup();

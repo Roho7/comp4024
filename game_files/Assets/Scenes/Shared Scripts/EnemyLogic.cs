@@ -14,6 +14,8 @@ public class EnemyLogic : MonoBehaviour
 
     AudioScript audio;
 
+    AudioScript audio;
+
     int direction = -1;
 
     void Start()
@@ -43,6 +45,7 @@ public class EnemyLogic : MonoBehaviour
             audio.PlaySFX(audio.scoreSound);
             Destroy(gameObject);
             scoreLogic.UpdateScore();
+            Destroy(gameObject);
         }
     }
 }
