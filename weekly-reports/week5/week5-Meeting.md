@@ -29,17 +29,20 @@ Leo Meyler [psylm10@nottingham.ac.uk](mailto:psylm10@nottingham.ac.uk)
 Wei-Che Lin [alywl40@nottingham.ac.uk](mailto:alywl40@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
+- Prepare a sprint review and minutes; write a reflection report.
 2. What are you working on moving forward from this meeting?
+- Organised documentation for the final presentation.
 3. Any challenges to your progress?
+- Communicating and understanding project management can be time consuming.
 
 Jingwen Xu [alyjx30@nottingham.ac.uk](mailto:alyjx30@nottingham.ac.uk)
 
 1. What did you do from previous meeting?
-   - I created drafts for our group reports.
+- I created drafts for our group reports.
 2. What are you working on moving forward from this meeting?
-   - I will write  beta test report.
+- I will write  beta test report.
 3. Any challenges to your progress?
-   - I have no experience doing beta testing and I have been studying for this for a long time.
+- I have no experience doing beta testing and I have been studying for this for a long time.
 
 Patwitra Kultanarueangnon [alypk2@nottingham.ac.uk](mailto:alypk2@nottingham.ac.uk)
 
