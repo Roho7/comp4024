@@ -24,30 +24,28 @@ Gameplay Overview
 
 ### Controls
 
--   **Move Left/Right:** Use the arrow keys or A/D keys.
--   **Jump:** Press the spacebar or W key.
--   **Interact/Submit Answer:** Press the E key.
+-   **Move Left/Right:** Use the LEFT and RIGHT arrow keys.
+-   **Jump:** Press the UP arrow key key.
+-   **Shoot:** Press the SPACEBAR.
+-   **Interact/Submit Answer:** Press the E key then RETURN.
 
 ### Playing the Game
 
-1.  **Level Progression:** Start from Level 1 and progress by beating each level. You must complete the current level to unlock the next one.
+1.  **Level Progression:** Start from Level 1 and progress by beating each level. You must complete the current level to move onto the next one.
 
-2.  **Math Questions:** Encounter barriers that require you to solve math questions. Input your answer to proceed. Questions increase in difficulty as you progress through the game.
+2.  **Math Questions:** Encounter barriers that require you to solve math questions. Input your answer correctly to proceed. Questions increase in difficulty as you progress through the game.
 
-3.  **Enemies:** Defeat enemies along the way to earn points. Use caution, as they can decrease your health.
-
-4.  **Hints:** Stuck on a question? Use points earned from defeating enemies to purchase hints. Each hint will make solving the current math problem easier.
+3.  **Enemies:** Defeat enemies along the way to earn points. 
 
 ### Points and Hints
 
 -   **Earning Points:** Points are earned by defeating enemies. The more enemies you defeat, the more points you accumulate.
--   **Using Points for Hints:** When faced with a challenging math question, you can spend points to receive hints. To do this, press the Hint button on the question screen. Each hint costs a certain number of points.
+
 
 Tips for Success
 ----------------
 
 -   **Practice Makes Perfect:** The math questions become more challenging as you progress. Practice math skills outside the game to improve your chances of success.
--   **Conserve Points:** Use points wisely. While hints are helpful, running out of points when you need them the most can be a setback.
 -   **Explore Levels:** Fully explore each level to find hidden points and power-ups. These can be crucial for overcoming challenging sections.
 
 Troubleshooting
@@ -59,4 +57,4 @@ Troubleshooting
 Support
 -------
 
-For further assistance or to report bugs, please contact our support team at GitHub.
+For further assistance or to report bugs, please contact our support team on [GitHub](https://github.com/Roho7/comp4024/tree/main).
