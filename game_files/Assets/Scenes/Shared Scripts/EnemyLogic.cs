@@ -14,9 +14,7 @@ public class EnemyLogic : MonoBehaviour
 
     AudioScript audio;
 
-    AudioScript audio;
-
-    int direction = -1;
+    public int direction = -1;
 
     void Start()
     {

@@ -458,6 +458,7 @@ MonoBehaviour:
   jumpforce: 5
   moveInterval: 2
   scoreLogic: {fileID: 0}
+  direction: -1
 --- !u!61 &412338840
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1457,7 +1458,7 @@ Transform:
   m_GameObject: {fileID: 661021673}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.595924, y: -2.4869633, z: -13.39}
+  m_LocalPosition: {x: -7.259717, y: -2.4751885, z: -11}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1639,7 +1640,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -1655,7 +1656,7 @@ Canvas:
   m_GameObject: {fileID: 739859373}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -2372,7 +2373,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -509, y: -456}
+  m_AnchoredPosition: {x: -509, y: -211.58}
   m_SizeDelta: {x: -1571, y: -1062}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1218542722
@@ -2606,7 +2607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7978071245856776900, guid: a42050409b5b143d990b0d14605e5f29, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 482
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 8271823303421277417, guid: a42050409b5b143d990b0d14605e5f29, type: 3}
       propertyPath: m_Camera
@@ -2634,7 +2635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9159779468420973760, guid: a42050409b5b143d990b0d14605e5f29, type: 3}
       propertyPath: m_margin.w
-      value: 3.4577863
+      value: 80.50826
       objectReference: {fileID: 0}
     - target: {fileID: 9159779468420973760, guid: a42050409b5b143d990b0d14605e5f29, type: 3}
       propertyPath: m_margin.z
@@ -3215,6 +3216,7 @@ MonoBehaviour:
   jumpforce: 5
   moveInterval: 10
   scoreLogic: {fileID: 0}
+  direction: -1
 --- !u!212 &1727901714
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3946,6 +3948,7 @@ MonoBehaviour:
   jumpforce: 5
   moveInterval: 2
   scoreLogic: {fileID: 0}
+  direction: -1
 --- !u!61 &2137264572
 BoxCollider2D:
   m_ObjectHideFlags: 0
