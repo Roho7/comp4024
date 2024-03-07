@@ -12,11 +12,14 @@ public class EnemyLogic : MonoBehaviour
     [HideInInspector] public ScoreLogic scoreLogic;
     float moveTimer = 0;
 
+    AudioScript audio;
+
     int direction = -1;
 
     void Start()
     {
         scoreLogic = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreLogic>();
+        audio = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioScript>();
 
     }
     void Update()
@@ -37,6 +40,7 @@ public class EnemyLogic : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             Debug.Log("Collision with bullet");
+            audio.PlaySFX(audio.scoreSound);
             Destroy(gameObject);
             scoreLogic.UpdateScore();
         }

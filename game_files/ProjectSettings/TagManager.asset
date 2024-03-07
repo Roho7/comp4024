@@ -16,6 +16,7 @@ TagManager:
   - GameOverUI
   - Score
   - LevelEnd
+  - AudioManager
   layers:
   - Default
   - TransparentFX

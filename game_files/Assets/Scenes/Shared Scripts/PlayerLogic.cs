@@ -24,7 +24,7 @@ public class PlayerLogic : MonoBehaviour
     [HideInInspector] public bool hasFired = false;
     [HideInInspector] private bool hasJumped = false;
 
-
+    AudioScript audio;
     private string instruction = "";
     private QuestionManager questionObject;
     QuestionManager.Question questionClass;
@@ -79,23 +79,25 @@ public class PlayerLogic : MonoBehaviour
         submitAnswerLogic = GameObject.FindGameObjectWithTag("AnswerTracker").GetComponent<SubmitAnswerLogic>();
         questionText = GameObject.FindGameObjectWithTag("Question").GetComponent<TMPro.TextMeshProUGUI>();
         instructionText = GameObject.FindGameObjectWithTag("InGameInstruction").GetComponent<TMPro.TextMeshProUGUI>();
+        audio = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioScript>();
     }
+
 
     void HandlePlayerDeath()
     {
         animator.SetTrigger("is_dead");
+        audio.PlaySFX(audio.fireSound);
         Debug.Log("Player has collided with killer");
         player.bodyType = RigidbodyType2D.Static;
-        // Destroy(gameObject);
+        audio.GameOver();
+        Destroy(audio.gameObject, 1.5f);
         gameOver();
     }
 
     void gameOver()
     {
-        Time.timeScale = 0f;
+        // Time.timeScale = 0f;
         GameOverUI.setup();
-
-
     }
 
     void HandleRunningAnimation()
@@ -177,6 +179,7 @@ public class PlayerLogic : MonoBehaviour
             {
                 Debug.Log("Inputed correct answer.");
                 DisableTextInput();
+                audio.PlaySFX(audio.correctSound);
                 fence.SetActive(false);
                 checkText = false;
             }
