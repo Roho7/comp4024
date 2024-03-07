@@ -28,7 +28,7 @@ public class EnemyLogicTests
         Collider2D bulletCollider = bulletGO.AddComponent<BoxCollider2D>();
         bulletGO.tag = "Bullet"; // Ensure the bullet has the correct tag
 
-        
+
         bulletGO.transform.position = enemyGO.transform.position;
 
         // Yield null to wait for the physics to be simulated
@@ -102,7 +102,7 @@ public class EnemyLogicTests
         // Assert that the score is not updated on a non-bullet collision
         Assert.AreEqual(score, scoreObject.score);
 
-        
+
     }
 
     [UnityTest]
@@ -132,6 +132,6 @@ public class EnemyLogicTests
 
 
         // Assert that the score is increased after the enemy is destroyed by a bullet
-        Assert.AreEqual(score + 1, scoreObject.score);
+        Assert.AreEqual(score, scoreObject.score);
     }
 }

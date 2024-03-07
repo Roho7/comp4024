@@ -19,15 +19,16 @@ public class GunLogic : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space)){
+        if (Input.GetKey(KeyCode.Space))
+        {
             HandleShooting();
         }
-       
+
     }
 
     public void HandleShooting()
     {
-        
+
         if (Time.time - lastFireTime >= fireCooldown)
         {
             lastFireTime = Time.time;

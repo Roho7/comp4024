@@ -20,7 +20,7 @@ public class LevelEndLogic : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
-            if (nextSceneIndex >= SceneManager.sceneCountInBuildSettings)
+            if (nextSceneIndex >= 3)
             {
                 nextSceneIndex = 0;
             }

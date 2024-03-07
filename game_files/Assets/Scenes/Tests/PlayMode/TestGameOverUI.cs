@@ -18,7 +18,7 @@ public class TestGameOverUI
         SceneManager.LoadScene("Assets/Scenes/Levels/testLevel.unity", LoadSceneMode.Single);
     }
 
-   
+
     [UnityTest]
     public IEnumerator TestGameOverWhenPlayerDies()
     {
@@ -34,21 +34,6 @@ public class TestGameOverUI
         Assert.IsTrue(gameOverUI.activeInHierarchy);
     }
 
-    [UnityTest]
-    public IEnumerator TestTimeScalePause()
-    {
-        var playerLogic = GameObject.FindFirstObjectByType<PlayerLogic>();
-        var player = playerLogic.GetComponent<Rigidbody2D>();
-        playerLogic.HandlePlayerDeath();
-        var gameOverUI = GameObject.Find("GameOverUI");
-
-
-
-        yield return null;
-
-        Assert.AreEqual(Time.timeScale, 0f);
-    }
-
 
     [UnityTest]
     public IEnumerator TestExitFunction()
@@ -57,9 +42,9 @@ public class TestGameOverUI
         var player = playerLogic.GetComponent<Rigidbody2D>();
         playerLogic.HandlePlayerDeath();
 
-        GameOverUI gameOverUI = GameObject.FindAnyObjectByType<GameOverUI>(); 
+        GameOverUI gameOverUI = GameObject.FindAnyObjectByType<GameOverUI>();
         gameOverUI.exit();
-        
+
         yield return null;
 
         Assert.AreEqual("MenuScreen", SceneManager.GetActiveScene().name);

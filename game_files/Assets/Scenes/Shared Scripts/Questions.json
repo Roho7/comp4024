@@ -1,103 +1,102 @@
 {
-    "questions": [
-      {
-        "id": 1,
-        "question": "What is 3/4 + 1/2?",
-        "correctAnswer": "5/4",
-        "hint": "Top heavy fraction in the form ?/4.",
-        "difficulty": 1
-      },
-      {
-        "id": 2,
-        "question": "If 4x = 20, what is x?",
-        "correctAnswer": "5",
-        "hint": "Divide by both sides by 4.",
-        "difficulty": 1
-      },
-      {
-        "id": 3,
-        "question": "An item is priced at £60 and is now on sale with a 20% discount. What is the discounted price? ",
-        "correctAnswer": "12",
-        "hint": "10% of £60 is 60/10 = 6.",
-        "difficulty": 1
-      },
-      {
-        "id": 4,
-        "question": "Calculate the area of a square with sides of length 5 units.",
-        "correctAnswer": "25",
-        "hint": "The area of a square with sides length a is calculated by a x a.",
-        "difficulty": 1
-      },
-      {
-        "id": 5,
-        "question": "Calculate the volume of a cube with sides of length 3 units.",
-        "correctAnswer": "27",
-        "hint": "The volume of a cube with sides length a is calculated by a x a x a.",
-        "difficulty": 1
-      },
-      {
-        "id": 6,
-        "question": "A student'test scores for a week are 30, 42, 18. What is their mean average score for that week?",
-        "correctAnswer": "30",
-        "hint": "Mean average of a, b, c is calculated by (a + b + c)/3.",
-        "difficulty": 1
-      },
-      {
-        "id": 7,
-        "question": "If 5 books cost £20, how much would 8 books cost?",
-        "correctAnswer": "32",
-        "hint": "Work out what 1 book costs 20/5.",
-        "difficulty": 1
-      },
-      {
-        "id": 8,
-        "question": "How many meters are in 1 kilometer?",
-        "correctAnswer": "1000",
-        "hint": "5000 meters in 5 kilometers.",
-        "difficulty": 1
-      },
-      {
-        "id": 9,
-        "question": "In a right-angled triangle, if one acute angle is 30 degrees, what is the measure of the other acute angle?",
-        "correctAnswer": "60",
-        "hint": "All angles in a trinagle add up to 180 degrees.",
-        "difficulty": 1
-      },
-      {
-        "id": 10,
-        "question": "Solve the equation 2(x-3) = 4.",
-        "correctAnswer": "5",
-        "hint": "Divide both sides by 2 then add 3 to both sides.",
-        "difficulty": 1
-      },
-      {
-        "id": 11,
-        "question": "Calculate 2/3 x 3/8.",
-        "correctAnswer": "1/4",
-        "hint": "Simplify the answer.",
-        "difficulty": 1
-      },
-      {
-        "id": 12,
-        "question": "List all the factors of 11 other than 11.",
-        "correctAnswer": "1",
-        "hint": "11 is prime therefore has one other factor than itself.",
-        "difficulty": 1
-      },
-      {
-        "id": 13,
-        "question": "Find the LCM of 6 and 8.",
-        "correctAnswer": "24",
-        "hint": "This is the Lowest Common Multiple of 6 and 8.",
-        "difficulty": 1
-      },
-      {
-        "id": 14,
-        "question": "Find the GCD of 36 and 48.",
-        "correctAnswer": "12",
-        "hint": "This is the Greatest Common Divisor of 36 and 48.",
-        "difficulty": 1
-      }
-    ]
-  }
-  
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is 3/4 + 1/2?",
+      "correctAnswer": "5/4",
+      "hint": "Top heavy fraction in the form ?/4.",
+      "difficulty": 1
+    },
+    {
+      "id": 2,
+      "question": "If 4x = 20, what is x?",
+      "correctAnswer": "5",
+      "hint": "Divide by both sides by 4.",
+      "difficulty": 1
+    },
+    {
+      "id": 3,
+      "question": "An item is priced at £60 and is now on sale with a 20% discount. What is the discounted price? ",
+      "correctAnswer": "48",
+      "hint": "10% of £60 is 60/10 = 6.",
+      "difficulty": 1
+    },
+    {
+      "id": 4,
+      "question": "Calculate the area of a square with sides of length 5 units.",
+      "correctAnswer": "25",
+      "hint": "The area of a square with sides length a is calculated by a x a.",
+      "difficulty": 1
+    },
+    {
+      "id": 5,
+      "question": "Calculate the volume of a cube with sides of length 3 units.",
+      "correctAnswer": "27",
+      "hint": "The volume of a cube with sides length a is calculated by a x a x a.",
+      "difficulty": 1
+    },
+    {
+      "id": 6,
+      "question": "A student'test scores for a week are 30, 42, 18. What is their mean average score for that week?",
+      "correctAnswer": "30",
+      "hint": "Mean average of a, b, c is calculated by (a + b + c)/3.",
+      "difficulty": 1
+    },
+    {
+      "id": 7,
+      "question": "If 5 books cost £20, how much would 8 books cost?",
+      "correctAnswer": "32",
+      "hint": "Work out what 1 book costs 20/5.",
+      "difficulty": 1
+    },
+    {
+      "id": 8,
+      "question": "How many meters are in 1 kilometer?",
+      "correctAnswer": "1000",
+      "hint": "5000 meters in 5 kilometers.",
+      "difficulty": 1
+    },
+    {
+      "id": 9,
+      "question": "In a right-angled triangle, if one acute angle is 30 degrees, what is the measure of the other acute angle?",
+      "correctAnswer": "60",
+      "hint": "All angles in a trinagle add up to 180 degrees.",
+      "difficulty": 1
+    },
+    {
+      "id": 10,
+      "question": "Solve the equation 2(x-3) = 4.",
+      "correctAnswer": "5",
+      "hint": "Divide both sides by 2 then add 3 to both sides.",
+      "difficulty": 1
+    },
+    {
+      "id": 11,
+      "question": "Calculate 2/3 x 3/8.",
+      "correctAnswer": "1/4",
+      "hint": "Simplify the answer.",
+      "difficulty": 1
+    },
+    {
+      "id": 12,
+      "question": "List all the factors of 11 other than 11.",
+      "correctAnswer": "1",
+      "hint": "11 is prime therefore has one other factor than itself.",
+      "difficulty": 1
+    },
+    {
+      "id": 13,
+      "question": "Find the LCM of 6 and 8.",
+      "correctAnswer": "24",
+      "hint": "This is the Lowest Common Multiple of 6 and 8.",
+      "difficulty": 1
+    },
+    {
+      "id": 14,
+      "question": "Find the GCD of 36 and 48.",
+      "correctAnswer": "12",
+      "hint": "This is the Greatest Common Divisor of 36 and 48.",
+      "difficulty": 1
+    }
+  ]
+}
